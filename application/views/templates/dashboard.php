@@ -75,8 +75,8 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link pb-0" href="<?= base_url('supplier'); ?>">
-                    <i class="fas fa-fw fa-users"></i>
+                <a class="nav-link pb-0" href="<?= base_url('kondisi_tanaman'); ?>">
+                    <i class="fas fa-fw fa-feather"></i>
                     <span>Kondisi Tanaman</span>
                 </a>
             </li>
