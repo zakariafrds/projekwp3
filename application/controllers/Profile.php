@@ -30,21 +30,24 @@ class Profile extends CI_Controller
         $username = $this->input->post('username', true);
         $email = $this->input->post('email', true);
 
-        $uniq_username = $db['username'] == $username ? '' : '|is_unique[user.username]';
-        $uniq_email = $db['email'] == $email ? '' : '|is_unique[user.email]';
+        if ($db != null) {
+            $uniq_username = $db['username'] == $username ? '' : '|is_unique[user.username]';
+            $uniq_email = $db['email'] == $email ? '' : '|is_unique[user.email]';
 
-        $this->form_validation->set_rules('username', 'Username', 'required|trim|alpha_numeric' . $uniq_username);
-        $this->form_validation->set_rules('email', 'Email', 'required|trim|valid_email' . $uniq_email);
-        $this->form_validation->set_rules('nama', 'Nama', 'required|trim');
-        $this->form_validation->set_rules('no_telp', 'Nomor Telepon', 'required|trim|numeric');
+            $this->form_validation->set_rules('username', 'Username', 'required|trim|alpha_numeric' . $uniq_username);
+            $this->form_validation->set_rules('email', 'Email', 'required|trim|valid_email' . $uniq_email);
+            $this->form_validation->set_rules('nama', 'Nama', 'required|trim');
+            $this->form_validation->set_rules('no_telp', 'Nomor Telepon', 'required|trim|numeric');
+        }
+
     }
 
     private function _config()
     {
-        $config['upload_path']      = "./assets/img/avatar";
-        $config['allowed_types']    = 'gif|jpg|jpeg|png';
-        $config['encrypt_name']     = TRUE;
-        $config['max_size']         = '2048';
+        $config['upload_path'] = "./assets/img/avatar";
+        $config['allowed_types'] = 'gif|jpg|jpeg|png';
+        $config['encrypt_name'] = TRUE;
+        $config['max_size'] = '2048';
 
         $this->load->library('upload', $config);
     }

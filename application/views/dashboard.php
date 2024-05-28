@@ -1,12 +1,12 @@
 <div class="row">
 
     <div class="col-xl-3 col-6 mb-4">
-        <div class="card border-left-primary shadow h-100 py-2">
+        <div class="card border-left-success shadow h-100 py-2">
             <div class="card-body">
                 <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                        <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Total Data Barang</div>
-                        <div class="h5 mb-0 font-weight-bold text-gray-800"><?= $barang; ?></div>
+                        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Total Data Barang</div>
+                        <div class="h5 mb-0 font-weight-bold text-primary"><?= $barang; ?></div>
                     </div>
                     <div class="col-auto">
                         <i class="fas fa-folder fa-2x text-gray-300"></i>
@@ -17,7 +17,7 @@
     </div>
 
     <div class="col-xl-3 col-6 mb-4">
-        <div class="card border-left-success shadow h-100 py-2">
+        <div class="card border-left-danger shadow h-100 py-2">
             <div class="card-body">
                 <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
@@ -39,12 +39,14 @@
                     <div class="col mr-2">
                         <div class="row no-gutters align-items-center">
                             <div class="col mr-2">
-                                <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Total Stok Barang</div>
+                                <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Total Stok Barang
+                                </div>
                                 <div class="h5 mb-0 font-weight-bold text-gray-800"><?= $stok; ?></div>
                             </div>
                             <div class="col-auto">
                                 <div class="progress progress-sm mr-2">
-                                    <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar bg-info" role="progressbar" style="width: 50%"
+                                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                         </div>
@@ -81,7 +83,8 @@
         <div class="card shadow mb-4">
             <!-- Card Header - Dropdown -->
             <div class="card-header bg-primary py-3 d-flex flex-row align-items-center justify-content-between">
-                <h6 class="m-0 font-weight-bold text-white">Total Transaksi Barang Perbulan pada Tahun <?= date('Y'); ?></h6>
+                <h6 class="m-0 font-weight-bold text-white">Total Transaksi Barang Perbulan pada Tahun <?= date('Y'); ?>
+                </h6>
             </div>
             <!-- Card Body -->
             <div class="card-body">
@@ -94,7 +97,8 @@
                             <div class=""></div>
                         </div>
                     </div>
-                    <canvas id="myAreaChart" width="669" height="320" class="chartjs-render-monitor" style="display: block; width: 669px; height: 320px;"></canvas>
+                    <canvas id="myAreaChart" width="669" height="320" class="chartjs-render-monitor"
+                        style="display: block; width: 669px; height: 320px;"></canvas>
                 </div>
             </div>
         </div>
@@ -118,7 +122,8 @@
                             <div class=""></div>
                         </div>
                     </div>
-                    <canvas id="myPieChart" width="302" height="245" class="chartjs-render-monitor" style="display: block; width: 302px; height: 245px;"></canvas>
+                    <canvas id="myPieChart" width="302" height="245" class="chartjs-render-monitor"
+                        style="display: block; width: 302px; height: 245px;"></canvas>
                 </div>
                 <div class="mt-4 text-center small">
                     <span class="mr-2">
@@ -150,18 +155,19 @@
                     </thead>
                     <tbody>
                         <?php
-                        if ($barang_min) :
-                            foreach ($barang_min as $b) :
+                        if ($barang_min):
+                            foreach ($barang_min as $b):
                                 ?>
                                 <tr>
                                     <td><?= $b['nama_barang']; ?></td>
                                     <td><?= $b['stok']; ?></td>
                                     <td>
-                                        <a href="<?= base_url('barangmasuk/add/') . $b['id_barang'] ?>" class="btn btn-warning btn-sm"><i class="fa fa-plus"></i></a>
+                                        <a href="<?= base_url('barangmasuk/add/') . $b['id_barang'] ?>"
+                                            class="btn btn-warning btn-sm"><i class="fa fa-plus"></i></a>
                                     </td>
                                 </tr>
                             <?php endforeach; ?>
-                        <?php else : ?>
+                        <?php else: ?>
                             <tr>
                                 <td colspan="3" class="text-center">
                                     Tidak ada barang stok minim
@@ -188,7 +194,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <?php foreach ($transaksi['barang_masuk'] as $tbm) : ?>
+                        <?php foreach ($transaksi['barang_masuk'] as $tbm): ?>
                             <tr>
                                 <td><strong><?= $tbm['tanggal_masuk']; ?></strong></td>
                                 <td><?= $tbm['nama_barang']; ?></td>
@@ -215,7 +221,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <?php foreach ($transaksi['barang_keluar'] as $tbk) : ?>
+                        <?php foreach ($transaksi['barang_keluar'] as $tbk): ?>
                             <tr>
                                 <td><strong><?= $tbk['tanggal_keluar']; ?></strong></td>
                                 <td><?= $tbk['nama_barang']; ?></td>
