@@ -1,7 +1,7 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  color: #ffffffbb;
-  background-color: #ffffff;
+  font-family: '', sans-serif;
+  color: #ADFF2F;
+  background-color: 	#ADFF2F;
 }
 
 .layout_padding {
@@ -57,7 +57,7 @@ body {
 /*header section*/
 .hero_area {
   height: 100vh;
-  background-image: url(../images/1anggrek.jpg);
+  background-image: url(../images/.jpg);
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
@@ -139,7 +139,7 @@ a:focus {
   text-decoration: none;
 }
 
-a:hover,
+a:hover
 a:focus {
   color: initial;
 }
