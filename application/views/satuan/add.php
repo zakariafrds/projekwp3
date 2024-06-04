@@ -1,10 +1,10 @@
 <div class="row justify-content-center">
     <div class="col-md-8">
-        <div class="card shadow-sm border-bottom-primary">
+        <div class="card shadow-sm border-bottom-success">
             <div class="card-header bg-white py-3">
                 <div class="row">
                     <div class="col">
-                        <h4 class="h5 align-middle m-0 font-weight-bold text-primary">
+                        <h4 class="h5 align-middle m-0 font-weight-bold text-success">
                             Form Tambah Satuan
                         </h4>
                     </div>
@@ -32,7 +32,7 @@
                 </div>
                 <div class="row form-group">
                     <div class="col-md-9 offset-md-3">
-                        <button type="submit" class="btn btn-primary">Simpan</button>
+                        <button type="submit" class="btn btn-success">Simpan</button>
                     </div>
                 </div>
                 <?= form_close(); ?>

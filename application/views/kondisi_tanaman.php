@@ -1,10 +1,10 @@
 <div class="row justify-content-center">
     <div class="col-md-8">
-        <div class="card shadow-sm border-bottom-primary">
+        <div class="card shadow-sm border-bottom-success">
             <div class="card-header bg-white py-3">
                 <div class="row">
                     <div class="col">
-                        <h4 class="h5 align-middle m-0 font-weight-bold text-primary">
+                        <h4 class="h5 align-middle m-0 font-weight-bold text-success">
                             Form Tambah Supplier
                         </h4>
                     </div>

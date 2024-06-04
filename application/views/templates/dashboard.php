@@ -270,7 +270,7 @@
                 <div class="modal-body">Klik "Logout" dibawah ini jika anda yakin ingin logout.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Batalkan</button>
-                    <a class="btn btn-primary" href="<?= base_url('logout'); ?>">Logout</a>
+                    <a class="btn btn-success" href="<?= base_url('logout'); ?>">Logout</a>
                 </div>
             </div>
         </div>
