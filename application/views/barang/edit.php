@@ -38,10 +38,10 @@
                             <select name="jenis_id" id="jenis_id" class="custom-select">
                                 <option value="" selected disabled>Pilih Jenis Barang</option>
                                 <?php foreach ($jenis as $j): ?>
-                                    <option <?= $barang['jenis_id'] == $j['id_jenis'] ? 'selected' : ''; ?>
-                                        <?= set_select('jenis_id', $j['id_jenis']) ?> value="<?= $j['id_jenis'] ?>">
-                                        <?= $j['nama_jenis'] ?>
-                                    </option>
+                                <option <?= $barang['jenis_id'] == $j['id_jenis'] ? 'selected' : ''; ?>
+                                    <?= set_select('jenis_id', $j['id_jenis']) ?> value="<?= $j['id_jenis'] ?>">
+                                    <?= $j['nama_jenis'] ?>
+                                </option>
                                 <?php endforeach; ?>
                             </select>
                             <div class="input-group-append">
@@ -59,10 +59,10 @@
                             <select name="satuan_id" id="satuan_id" class="custom-select">
                                 <option value="" selected disabled>Pilih Satuan Barang</option>
                                 <?php foreach ($satuan as $s): ?>
-                                    <option <?= $barang['satuan_id'] == $s['id_satuan'] ? 'selected' : ''; ?>
-                                        <?= set_select('satuan_id', $s['id_satuan']) ?> value="<?= $s['id_satuan'] ?>">
-                                        <?= $s['nama_satuan'] ?>
-                                    </option>
+                                <option <?= $barang['satuan_id'] == $s['id_satuan'] ? 'selected' : ''; ?>
+                                    <?= set_select('satuan_id', $s['id_satuan']) ?> value="<?= $s['id_satuan'] ?>">
+                                    <?= $s['nama_satuan'] ?>
+                                </option>
                                 <?php endforeach; ?>
                             </select>
                             <div class="input-group-append">

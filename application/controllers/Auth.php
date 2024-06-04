@@ -41,8 +41,8 @@ class Auth extends CI_Controller
                         redirect('login');
                     } else {
                         $userdata = [
-                            'user'  => $user_db['id_user'],
-                            'role'  => $user_db['role'],
+                            'user' => $user_db['id_user'],
+                            'role' => $user_db['role'],
                             'timestamp' => time()
                         ];
                         $this->session->set_userdata('login_session', $userdata);
@@ -64,7 +64,7 @@ class Auth extends CI_Controller
         $this->session->unset_userdata('login_session');
 
         set_pesan('anda telah berhasil logout');
-        redirect('auth');
+        redirect('beranda');
     }
 
     public function register()
@@ -82,11 +82,11 @@ class Auth extends CI_Controller
         } else {
             $input = $this->input->post(null, true);
             unset($input['password2']);
-            $input['password']      = password_hash($input['password'], PASSWORD_DEFAULT);
-            $input['role']          = 'gudang';
-            $input['foto']          = 'user.png';
-            $input['is_active']     = 0;
-            $input['created_at']    = time();
+            $input['password'] = password_hash($input['password'], PASSWORD_DEFAULT);
+            $input['role'] = 'gudang';
+            $input['foto'] = 'user.png';
+            $input['is_active'] = 0;
+            $input['created_at'] = time();
 
             $query = $this->admin->insert('user', $input);
             if ($query) {

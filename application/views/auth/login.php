@@ -27,7 +27,7 @@
                                     placeholder="Password">
                                 <?= form_error('password', '<small class="text-danger">', '</small>'); ?>
                             </div>
-                            <button type="submit" class="btn btn-primary btn-user btn-block">
+                            <button type="submit" class="btn btn-success btn-user btn-block">
                                 Login
                             </button>
                             <div class="text-center mt-4">
