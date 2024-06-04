@@ -67,7 +67,11 @@
                 <div class="row form-group">
                     <div class="col-md-9 offset-md-3">
                         <button type="submit" class="btn btn-success">Simpan</button>
+<<<<<<< HEAD
                         <button type="reset" class="btn btn-danger">Reset</button>
+=======
+                        <button type="reset" class="btn btn-secondary">Reset</button>
+>>>>>>> 2e3438c16e7a0e501fe27386532ddd3a91d705cb
                     </div>
                 </div>
                 <?= form_close(); ?>
