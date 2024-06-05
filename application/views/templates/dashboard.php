@@ -60,7 +60,7 @@
 
             <!-- Divider -->
             <hr class="sidebar-divider">
-
+            <?php if (is_gudang()): ?>
             <!-- Heading -->
             <div class="sidebar-heading">
                 Data Master
@@ -81,6 +81,7 @@
                 </a>
             </li>
 
+
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link collapsed text-white" href="#" data-toggle="collapse" data-target="#collapseMaster"
@@ -97,9 +98,7 @@
                     </div>
                 </div>
             </li>
-
-            <!-- Divider -->
-            <hr class="sidebar-divider">
+            <?php endif; ?>
 
             <!-- Heading -->
             <div class="sidebar-heading">
@@ -122,6 +121,8 @@
                 </a>
             </li>
 
+
+            <?php if (is_admin()): ?>
             <!-- Divider -->
             <hr class="sidebar-divider">
 
@@ -136,6 +137,7 @@
                     <span class="text-white">Cetak Laporan</span>
                 </a>
             </li>
+            <?php endif; ?>
 
             <?php if (is_admin()): ?>
             <!-- Divider -->
@@ -187,7 +189,7 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline small text-capitalize-secondary">
+                                <span class="mr-2 d-none d-lg-inline small text-dark">
                                     <?= userdata('nama'); ?>
                                 </span>
                                 <img class="img-profile rounded-box"

@@ -23,6 +23,20 @@ function is_admin()
     return $status;
 }
 
+function is_gudang()
+{
+    $ci = get_instance();
+    $role = $ci->session->userdata('login_session')['role'];
+
+    $status = true;
+
+    if ($role != 'gudang') {
+        $status = false;
+    }
+
+    return $status;
+}
+
 function set_pesan($pesan, $tipe = true)
 {
     $ci = get_instance();
