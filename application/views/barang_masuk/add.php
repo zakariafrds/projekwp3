@@ -1,10 +1,10 @@
 <div class="row justify-content-center">
     <div class="col-md-8">
-        <div class="card shadow-sm border-bottom-primary">
-            <div class="card-header bg-white py-3">
+        <div class="card shadow-sm border-bottom-success">
+            <div class="card-header bg-success py-3">
                 <div class="row">
                     <div class="col">
-                        <h4 class="h5 align-middle m-0 font-weight-bold text-primary">
+                        <h4 class="h5 align-middle m-0 font-weight-bold text-white">
                             Form Input Barang Masuk
                         </h4>
                     </div>
@@ -48,7 +48,7 @@
                                 <?php endforeach; ?>
                             </select>
                             <div class="input-group-append">
-                                <a class="btn btn-primary" href="<?= base_url('supplier/add'); ?>"><i class="fa fa-plus"></i></a>
+                                <a class="btn btn-success" href="<?= base_url('supplier/add'); ?>"><i class="fa fa-plus"></i></a>
                             </div>
                         </div>
                         <?= form_error('supplier_id', '<small class="text-danger">', '</small>'); ?>
@@ -65,7 +65,7 @@
                                 <?php endforeach; ?>
                             </select>
                             <div class="input-group-append">
-                                <a class="btn btn-primary" href="<?= base_url('barang/add'); ?>"><i class="fa fa-plus"></i></a>
+                                <a class="btn btn-success" href="<?= base_url('barang/add'); ?>"><i class="fa fa-plus"></i></a>
                             </div>
                         </div>
                         <?= form_error('barang_id', '<small class="text-danger">', '</small>'); ?>
@@ -97,7 +97,7 @@
                 </div>
                 <div class="row form-group">
                     <div class="col offset-md-4">
-                        <button type="submit" class="btn btn-primary">Simpan</button>
+                        <button type="submit" class="btn btn-success">Simpan</button>
                         <button type="reset" class="btn btn-secondary">Reset</button>
                     </div>
                 </div>
