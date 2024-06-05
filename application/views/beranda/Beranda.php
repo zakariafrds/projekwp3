@@ -388,28 +388,28 @@
                 </div>
                 <div class="box">
                         <div class="img-box">
-                            <img src="<?php echo base_url()?>/assets/beranda/images/kae2.jpg" alt="">
+                            <img src="<?php echo base_url()?>/assets/beranda/images/kae3.jpg" alt="">
                         </div>
                 </div>
                 <div class="box">
                         <div class="img-box">
-                            <img src="<?php echo base_url()?>/assets/beranda/images/kae2.jpg" alt="">
+                            <img src="<?php echo base_url()?>/assets/beranda/images/kae4.jpg" alt="">
                         </div>
                 </div>
                 <div class="box">
                         <div class="img-box mb-2">
-                            <img src="<?php echo base_url()?>/assets/beranda/images/kae2.jpg" alt="">
+                            <img src="<?php echo base_url()?>/assets/beranda/images/kae5.jpg" alt="">
                         </div>
                 </div>
                 <div class="box">
                         <div class="img-box">
-                            <img src="<?php echo base_url()?>/assets/beranda/images/kae2.jpg" alt="">
+                            <img src="<?php echo base_url()?>/assets/beranda/images/kae6.jpg" alt="">
                         </div>
                 </div>
                 <div class="box">
                     <a href="">
                         <div class="img-box mb-4">
-                            <img src="<?php echo base_url()?>/assets/beranda/images/kae3.jpg" alt="">
+                            <img src="<?php echo base_url()?>/assets/beranda/images/kae7.jpg" alt="">
                         </div>
                         <div class="detail-box">
                             <h6 class="price">
@@ -424,7 +424,7 @@
                 <div class="box">
                     <a href="">
                         <div class="img-box mb-4">
-                            <img src="<?php echo base_url()?>/assets/beranda/images/kae4.jpg" alt="">
+                            <img src="<?php echo base_url()?>/assets/beranda/images/kae8.jpg" alt="">
                         </div>
                         <div class="detail-box">
                             <h6 class="price">

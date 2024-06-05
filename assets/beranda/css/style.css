@@ -57,7 +57,7 @@ body {
 /*header section*/
 .hero_area {
   height: 100vh;
-  background-image: url(../images/1anggrek.jpg);
+  background-image: url(../images/pabrik2.jpg);
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
@@ -71,7 +71,7 @@ body {
   right: 0;
   width: 45%;
   height: 100%;
-  background-image: url(../images/anggrekb.png);
+  background-image: url(../images/);
   background-size: cover;
 }
 
