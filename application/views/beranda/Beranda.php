@@ -21,7 +21,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/beranda') ?>/css/bootstrap.css" />
 
     <!-- fonts style -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|green:400,700&display=swap" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="<?php echo base_url('assets/beranda') ?>/css/style.css" rel="stylesheet" />
     <!-- responsive style -->
@@ -35,38 +35,41 @@
 </style>
 
 <body>
-    <div class="hero_area">
+    <div class="hero_area ">
         <!-- header section strats -->
         <header class="header_section">
             <div class="container-fluid">
-                <nav class="navbar navbar-expand-lg custom_nav-container">
+                <nav class="fixed-top navbar navbar-expand-lg custom_nav-container">
                     <a class="navbar-brand" href="index.html">
-                        <img src="" alt="" />
+                        <!-- <img src="" alt="" /> -->
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav  ">
+                        <ul class="navbar-nav">
+                             <li class="nav-item active">
+                                <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
+                            </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="#about"> About</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html"> About</a>
+                            <!-- <li class="nav-item active">
+                                <a class="nav-link" href="#jenis-anggrek">Anggrek </a>
+                            </li> -->
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#gallery"> Gallery</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="shop.html">Anggrek </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact us</a>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#Lokasi">Lokasi</a>
                             </li>
                         </ul>
                         <div class="user_option">
-                            <a href="http://localhost/projekwp3/login/">
+                            <a href="<?php echo base_url('auth/')?>">
                                 <img src="images/user.png" alt="">
                                 <span>
-                                    Login
+                                    <!-- Login -->
                                 </span>
                             </a>
                             <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
@@ -104,23 +107,21 @@
                                 <div class="col-md-6">
                                     <div class="detail-box">
                                         <h1>
-                                            Moon
+                                            PT Legenda Bintang Hijau
                                             <br><span>
-                                                Orchid
                                             </span>
                                         </h1>
-                                        <p><b>
+                                        <a href="<?php echo base_url('auth') ?>">
+                                        <button type="button" class="btn btn-warning">Login</button>
+                                        </a>
+                                        </div>
+
+                                        <!-- <p><b>
                                                 Anggrek merupakan salah satu jenis tanaman hias yang memiliki keindahan yang luar biasa.
-                                                Tanaman ini memiliki beragam bentuk dan warna yang membuatnya begitu menarik bagi pecinta kebun dan kolektor tanaman</b>
-                                        </p>
+                                                Tanaman ini memiliki beragam bentuk dan warna yang membuatnya begitu menarik bagi pecinta kebun dan kolektor tanaman</b></p> -->
                                     </div>
                                 </div>
-                                <div class="col-md-6 img-container">
-                                    <div class="img-box">
-                                        <style></style>
-                                        <!-- <img class="Anggrek" src="images/anggrekb.png" alt=""> -->
-                                    </div>
-                                </div>
+                               
                             </div>
                         </div>
                     </div>
@@ -133,49 +134,81 @@
 
     <!-- about section -->
 
-    <section class="about_section layout_padding">
+    <section id="about" class="about_section layout_padding ">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <div class="detail-box">
-                        <div class="heading_container">
+                        <div class="heading_container text-center">
                             <h2>
                                 About Us
                             </h2>
-
                         </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam
-                        </p>
+                        <div class="text-center">
+
+                            <img width="100%" src="assets/beranda/images/kibow1.jpg" >
+                        </div>
+                        
                         <a href="">
-                            Read More
                         </a>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div style="text-align: justify" class="col-md-6">
                     <div class="img-box">
-                        <img src="images/about-img.png" alt="">
+                        <img src="images/" alt="">
                     </div>
+                    <p class="text-dark">
+                    Anggrek Bulan adalah salah satu jenis anggrek alam yang memiliki pesona sangat indah dan banyak diminati di Indonesia. 
+                    Penyebarannya banyak ditemukan di Pulau Jawa dan Sumatera. Anggrek Bulan ini dimanfaatkan sebagai bunga potong atau tanaman pot untuk hiasan rumah dan taman. 
+                    Kekhasan anggrek bulan yaitu bentuk bunganya yang lebih besar dengan warna yang bervariasi dan waktu mekar bunga yang lebih lama dibandingkan jenis anggrek lain (Fauziah dkk.,2014). 
+                    Phalaenopsis sensitif terhadap suhu yang tinggi, terutama anggrek bulan hibrida (Kano, 2001).
+                    
+                        </p>
                 </div>
             </div>
         </div>
     </section>
 
+    
+    <!-- <section id="gallery" class="gallery_section layout_padding ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div  class="detail-box">
+                        <div class="heading_container text-center">
+                            <h2>
+                                Gallery
+                            </h2>
+                        </div>
+                        <div class="row tm-mb-90 tm-gallery">
+        	                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                               <figure class="effect-ming tm-video-item">
+                                  <img src="assets/beranda/images/" alt="Image" class="img-fluid">
+                                    <figcaption class="d-flex align-items-center justify-content-center">
+                                    <h2>Clocks</h2>
+                        <a href="">View more</a>
+                    </figcaption>                    
+                </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>     -->
+
     <!-- end about section -->
 
     <!-- trending section -->
 
-    <section class="trending_section layout_padding">
+    <!-- <section id='jenis-anggrek' class="trending_section layout_padding">
         <div id="accordion">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="detail-box">
-                            <div class="heading_container">
-                                <h2>
-                                    Trending Categories
-                                </h2>
+                            <div class="text-dark heading_container">
+                                <h1><b>
+                                   Galeri PT Legenda Bintang Hijau
+                                </h1></b>
                             </div>
                             <div class="tab_container">
                                 <div class="t-link-box" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -187,7 +220,7 @@
                                     <hr>
                                     <div class="t-name">
                                         <h5>
-                                            Chairs
+                                            Anggrek
                                         </h5>
                                     </div>
                                 </div>
@@ -200,7 +233,7 @@
                                     <hr>
                                     <div class="t-name">
                                         <h5>
-                                            Tables
+                                            Proses
                                         </h5>
                                     </div>
                                 </div>
@@ -213,7 +246,7 @@
                                     <hr>
                                     <div class="t-name">
                                         <h5>
-                                            Bads
+                                            Anggek Selop
                                         </h5>
                                     </div>
                                 </div>
@@ -226,7 +259,7 @@
                                     <hr>
                                     <div class="t-name">
                                         <h5>
-                                            Furnitures
+                                            Anggrek Hitam
                                         </h5>
                                     </div>
                                 </div>
@@ -237,40 +270,18 @@
                         <div class="collapse show" id="collapseOne" aria-labelledby="headingOne" data-parent="#accordion">
                             <div class="img_container ">
                                 <div class="box b-1">
-                                    <div class="img-box">
-                                        <img src="images/t-1.jpg" alt="">
-                                    </div>
-                                    <div class="img-box">
-                                        <img src="images/t-2.jpg" alt="">
+                                    <div class="img-box" >
+                                        <img  src="<?php echo base_url()?>/assets/beranda/images/bunga_bulan.jpeg">
                                     </div>
                                 </div>
-                                <div class="box b-2">
-                                    <div class="img-box">
-                                        <img src="images/t-3.jpg" alt="">
-                                    </div>
-                                    <div class="img-box">
-                                        <img src="images/t-4.jpg" alt="">
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
                         <div class="collapse" id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordion">
                             <div class="img_container ">
                                 <div class="box b-1">
-                                    <div class="img-box">
-                                        <img src="images/t-3.jpg" alt="">
-                                    </div>
-                                    <div class="img-box">
-                                        <img src="images/t-4.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="box b-2">
-
-                                    <div class="img-box">
-                                        <img src="images/t-1.jpg" alt="">
-                                    </div>
-                                    <div class="img-box">
-                                        <img src="images/t-2.jpg" alt="">
+                                <div class="img-box">
+                                        <img src="<?php echo base_url()?>/assets/beranda/images/siram3.jpg">
                                     </div>
                                 </div>
                             </div>
@@ -279,18 +290,7 @@
                             <div class="img_container ">
                                 <div class="box b-1">
                                     <div class="img-box">
-                                        <img src="images/t-4.jpg" alt="">
-                                    </div>
-                                    <div class="img-box">
-                                        <img src="images/t-1.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="box b-2">
-                                    <div class="img-box">
-                                        <img src="images/t-3.jpg" alt="">
-                                    </div>
-                                    <div class="img-box">
-                                        <img src="images/t-2.jpg" alt="">
+                                        <img src="<?php echo base_url()?>/assets/beranda/images/selop1.png">
                                     </div>
                                 </div>
                             </div>
@@ -298,22 +298,11 @@
                         <div class="collapse" id="collapseFour" aria-labelledby="headingfour" data-parent="#accordion">
                             <div class="img_container ">
                                 <div class="box b-1">
-                                    <div class="img-box">
-                                        <img src="images/t-1.jpg" alt="">
-                                    </div>
-
-                                    <div class="img-box">
-                                        <img src="images/t-4.jpg" alt="">
+                                <div class="img-box">
+                                        <img src="<?php echo base_url()?>/assets/beranda/images/anggrek_hitam.jpeg">
                                     </div>
                                 </div>
-                                <div class="box b-2">
-                                    <div class="img-box">
-                                        <img src="images/t-3.jpg" alt="">
-                                    </div>
-                                    <div class="img-box">
-                                        <img src="images/t-2.jpg" alt="">
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
 
@@ -322,13 +311,14 @@
             </div>
         </div>
 
-    </section>
+    </section> -->
+
 
     <!-- end trending section -->
 
     <!-- discount section -->
 
-    <section class="discount_section  layout_padding">
+    <!-- <section class="discount_section  layout_padding">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -337,7 +327,7 @@
                             The Latest Collection
                         </h2>
                         <h2 class="main_heading">
-                            50% DISCOUNT
+                            5
                         </h2>
 
                         <div class="">
@@ -354,18 +344,18 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
     <!-- end discount section -->
 
     <!-- brand section -->
-
-    <section class="brand_section">
+    
+    <section id='gallery' class="brand_section">
         <div class="container">
             <div class="heading_container">
                 <h2>
-                    Featured Brands
+                   Gallery
                 </h2>
             </div>
             <div class="brand_container layout_padding2">
@@ -377,59 +367,71 @@
                             </h5>
                         </div>
                         <div class="img-box">
-                            <img src="images/slider-img.png" alt="">
-                        </div>
-                        <div class="detail-box">
-                            <h6 class="price">
-                                $100
-                            </h6>
-                            <h6>
-                                Chair
-                            </h6>
+                            <img src="<?php echo base_url()?>/assets/beranda/images/kae1.jpg" alt="">
                         </div>
                     </a>
                 </div>
                 <div class="box">
                     <a href="">
                         <div class="img-box">
-                            <img src="images/slider-img.png" alt="">
+                            <img src="<?php echo base_url()?>/assets/beranda/images/kae2.jpg" alt="">
                         </div>
                         <div class="detail-box">
                             <h6 class="price">
-                                $100
+                                
                             </h6>
                             <h6>
-                                Chair
+                            
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                        <div class="img-box">
+                            <img src="<?php echo base_url()?>/assets/beranda/images/kae2.jpg" alt="">
+                        </div>
+                </div>
+                <div class="box">
+                        <div class="img-box">
+                            <img src="<?php echo base_url()?>/assets/beranda/images/kae2.jpg" alt="">
+                        </div>
+                </div>
+                <div class="box">
+                        <div class="img-box mb-2">
+                            <img src="<?php echo base_url()?>/assets/beranda/images/kae2.jpg" alt="">
+                        </div>
+                </div>
+                <div class="box">
+                        <div class="img-box">
+                            <img src="<?php echo base_url()?>/assets/beranda/images/kae2.jpg" alt="">
+                        </div>
+                </div>
+                <div class="box">
+                    <a href="">
+                        <div class="img-box mb-4">
+                            <img src="<?php echo base_url()?>/assets/beranda/images/kae3.jpg" alt="">
+                        </div>
+                        <div class="detail-box">
+                            <h6 class="price">
+                            
+                            </h6>
+                            <h6>
+                                
                             </h6>
                         </div>
                     </a>
                 </div>
                 <div class="box">
                     <a href="">
-                        <div class="img-box">
-                            <img src="images/slider-img.png" alt="">
+                        <div class="img-box mb-4">
+                            <img src="<?php echo base_url()?>/assets/beranda/images/kae4.jpg" alt="">
                         </div>
                         <div class="detail-box">
                             <h6 class="price">
-                                $100
+                                
                             </h6>
                             <h6>
-                                Chair
-                            </h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="">
-                        <div class="img-box">
-                            <img src="images/slider-img.png" alt="">
-                        </div>
-                        <div class="detail-box">
-                            <h6 class="price">
-                                $100
-                            </h6>
-                            <h6>
-                                Chair
+                                
                             </h6>
                         </div>
                     </a>
@@ -440,46 +442,49 @@
             </a>
         </div>
     </section>
+                       
+   
 
     <!-- end brand section -->
     <!-- contact section -->
 
-    <section class="contact_section layout_padding">
-        <div class="container ">
+    <section id='' class="contact_section layout_padding">
+        <div class=" container ">
             <div class="heading_container">
                 <h2 class="">
-                    Contact Us
+                    Lokasi
                 </h2>
             </div>
 
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <form action="">
+                <!-- <div class="col-md-6">
+                    <form method="post" action="http://localhost/projekwp3/beranda/kirim_pesan">
                         <div>
-                            <input type="text" placeholder="Name" />
+                            <input type="text" name="nama" placeholder="Name" />
                         </div>
                         <div>
-                            <input type="email" placeholder="Email" />
+                            <input type="email" name="email" placeholder="Email" />
                         </div>
                         <div>
-                            <input type="text" placeholder="Phone" />
+                            <input type="text" name="phone" placeholder="Phone" />
                         </div>
                         <div>
-                            <input type="text" class="message-box" placeholder="Message" />
+                            <input type="text" name="message" class="message-box" placeholder="Message" />
                         </div>
                         <div class="d-flex ">
                             <button>
-                                SEND
+                                SEND    
                             </button>
                         </div>
                     </form>
-                </div>
-                <div class="col-md-6">
+                </div> -->
+                <div class="col-12">
                     <div class="map_container">
                         <div class="map-responsive">
-                            <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France" width="600" height="300" frameborder="0" style="border:0; width: 100%; height:100%" allowfullscreen></iframe>
+                            <!-- <iframe src="https://maps.app.goo.gl/a7VfyV5dafuVTDwh8" width="100" height="200" frameborder="0" style="border:0; width: 100%; height:100%" allowfullscreen></iframe> -->
+                                <iframe id='Lokasi' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.435717732693!2d107.49156430933313!3d-6.46635669349829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6913a7cd350875%3A0x9fa3064cd2a55ee8!2sBintang%20Hijau%20Farm!5e0!3m2!1sid!2sid!4v1717077496558!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>
@@ -490,7 +495,7 @@
     <!-- end contact section -->
 
     <!-- client section -->
-    <section class="client_section layout_padding-bottom">
+    <!-- <section class="client_section layout_padding-bottom">
         <div class="container">
             <div class="heading_container">
                 <h2>
@@ -554,7 +559,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- end client section -->
 
@@ -563,7 +568,7 @@
         <div class="container">
             <div class="info_logo">
                 <h2>
-                    Digitf
+                    Tentang
                 </h2>
             </div>
             <div class="row">
@@ -571,14 +576,14 @@
                 <div class="col-md-3">
                     <div class="info_contact">
                         <h5>
-                            About Shop
+                            PT.Legenda Bintang Hijau
                         </h5>
                         <div>
                             <div class="img-box">
                                 <img src="images/location-white.png" width="18px" alt="">
                             </div>
                             <p>
-                                Address
+                                Purwakarta
                             </p>
                         </div>
                         <div>
@@ -586,7 +591,7 @@
                                 <img src="images/telephone-white.png" width="12px" alt="">
                             </div>
                             <p>
-                                +01 1234567890
+                                +6281222799736
                             </p>
                         </div>
                         <div>
@@ -594,7 +599,7 @@
                                 <img src="images/envelope-white.png" width="18px" alt="">
                             </div>
                             <p>
-                                demo@gmail.com
+                                bintanghijaugmail.com
                             </p>
                         </div>
                     </div>
@@ -605,7 +610,7 @@
                             Informations
                         </h5>
                         <p>
-                            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            
                         </p>
                     </div>
                 </div>
@@ -694,8 +699,8 @@
     <section class="container-fluid footer_section ">
         <div class="container">
             <p>
-                &copy; 2019 All Rights Reserved By
-                <a href="https://html.design/">Free Html Templates</a>
+                &copy; 2024 Kelompok II By
+                <a href="https://html.design/">Manggrek</a>
             </p>
         </div>
     </section>
