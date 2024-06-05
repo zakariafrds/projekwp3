@@ -374,6 +374,18 @@ a:focus {
   right: 32%;
 }
 
+.text-dark {
+  font-style: oblique;
+}
+
+.foto-kibow {
+  align-items: center;
+  float: right;   /* float property can be used to wrap text around images */  
+  width: 50%;
+  height: 50%;
+  display: block;
+}
+
 .slider_section .play_btn a {
   background-color: #ffffff;
   display: -webkit-box;
@@ -653,15 +665,15 @@ a:focus {
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 0 -10px;
+  margin: 0 0px;
 }
 
 .brand_section .brand_container .box {
   position: relative;
   text-align: center;
   background-color: #e4e5e9;
-  padding: 75px 35px 10px 35px;
-  margin: 30px 10px 0 10px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 2.5px 2.5px;
   min-width: 225px;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 23.24670%;

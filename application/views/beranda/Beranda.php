@@ -49,7 +49,7 @@
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav">
-                             <li class="nav-item active">
+                            <li class="nav-item active">
                                 <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item active">
@@ -66,7 +66,7 @@
                             </li>
                         </ul>
                         <div class="user_option">
-                            <a href="<?php echo base_url('auth/')?>">
+                            <a href="<?php echo base_url('auth/') ?>">
                                 <img src="images/user.png" alt="">
                                 <span>
                                     <!-- Login -->
@@ -112,23 +112,23 @@
                                             </span>
                                         </h1>
                                         <a href="<?php echo base_url('auth') ?>">
-                                        <button type="button" class="btn btn-warning">Login</button>
+                                            <button type="button" class="btn btn-warning">Login</button>
                                         </a>
-                                        </div>
+                                    </div>
 
-                                        <!-- <p><b>
+                                    <!-- <p><b>
                                                 Anggrek merupakan salah satu jenis tanaman hias yang memiliki keindahan yang luar biasa.
                                                 Tanaman ini memiliki beragam bentuk dan warna yang membuatnya begitu menarik bagi pecinta kebun dan kolektor tanaman</b></p> -->
-                                    </div>
                                 </div>
-                               
                             </div>
+
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- end slider section -->
+    </div>
+    </section>
+    <!-- end slider section -->
     </div>
 
 
@@ -144,32 +144,35 @@
                                 About Us
                             </h2>
                         </div>
-                        <div class="text-center">
+                        <div style="text-align: justify" class="col-md-10">
+                            <div class="img-box">
+                                <img src="images/" alt="">
+                            </div>
+                            <p class="text-dark">
+                                "Anggrek (Orchidaceae) merupakan tanaman yang mudah beradaptasi dengan lingkungannya. Tak heran, apabila tanaman anggek bisa dijumpai hampir di seluruh bagian di dunia. Lokasi tumbuh mereka juga bisa sangat beragam.
+                                Mulai dari daerah dataran rendah hingga dataran tinggi, mulai dari kawasan yang bersuhu dingin hingga bersuhu panas.
+                                Secara umum anggrek bisa digolongkan menjadi dua, yaitu epifit dan terresterial. Kategori epifit merupakan jenis anggrek yang tumbuhnya menempel pada tanaman lain, namun tidak bersifat parasit atau merugikan tanaman yang ditumpanginya. Contoh anggrek jenis ini ialah genus Dendrobium, Bulbophyllum, dan Coelogyne.
+                                Sedangkan kategori terresterial adalah anggrek yang tumbuhnya di tanah, contohnya ialah genus Spathoglottis, Calanthe, dan Paphiope-dilum.
+                                <br>
+                                "Sejauh ini telah teridentifikasi sekitar 750 famili, 43.000 spesies, dan 35.000 varietas hibrida anggrek dari seluruh penjuru dunia. Indonesia sekurannya memiliki 5.000 spesies.
+                                Dari jumlah itu, 986 spesies tersebar di hutan-hutan di Pulau Jawa, 971 spesies berada di Pulau Sumatra, 113 spesies tumbuh di Kepulauan Maluku, dan sisanya bisa ditemukan di Sulawesi, Irian Jaya, Nusa Tenggara, dan Kalimantan.
+                                Anggrek Bulan adalah salah satu jenis anggrek alam yang memiliki pesona sangat indah dan banyak diminati di Indonesia.
 
-                            <img width="100%" src="assets/beranda/images/kibow1.jpg" >
+                            </p>
                         </div>
-                        
-                        <a href="">
-                        </a>
+
+                        <!-- <a href="">
+                        </a> -->
                     </div>
                 </div>
-                <div style="text-align: justify" class="col-md-6">
-                    <div class="img-box">
-                        <img src="images/" alt="">
-                    </div>
-                    <p class="text-dark">
-                    Anggrek Bulan adalah salah satu jenis anggrek alam yang memiliki pesona sangat indah dan banyak diminati di Indonesia. 
-                    Penyebarannya banyak ditemukan di Pulau Jawa dan Sumatera. Anggrek Bulan ini dimanfaatkan sebagai bunga potong atau tanaman pot untuk hiasan rumah dan taman. 
-                    Kekhasan anggrek bulan yaitu bentuk bunganya yang lebih besar dengan warna yang bervariasi dan waktu mekar bunga yang lebih lama dibandingkan jenis anggrek lain (Fauziah dkk.,2014). 
-                    Phalaenopsis sensitif terhadap suhu yang tinggi, terutama anggrek bulan hibrida (Kano, 2001).
-                    
-                        </p>
+                <div class="foto-kibow">
+                    <img width="116%" src="assets/beranda/images/kibow1.jpg">
                 </div>
             </div>
         </div>
     </section>
 
-    
+
     <!-- <section id="gallery" class="gallery_section layout_padding ">
         <div class="container">
             <div class="row">
@@ -271,7 +274,7 @@
                             <div class="img_container ">
                                 <div class="box b-1">
                                     <div class="img-box" >
-                                        <img  src="<?php echo base_url()?>/assets/beranda/images/bunga_bulan.jpeg">
+                                        <img  src="<?php echo base_url() ?>/assets/beranda/images/bunga_bulan.jpeg">
                                     </div>
                                 </div>
                                 
@@ -281,7 +284,7 @@
                             <div class="img_container ">
                                 <div class="box b-1">
                                 <div class="img-box">
-                                        <img src="<?php echo base_url()?>/assets/beranda/images/siram3.jpg">
+                                        <img src="<?php echo base_url() ?>/assets/beranda/images/siram3.jpg">
                                     </div>
                                 </div>
                             </div>
@@ -290,7 +293,7 @@
                             <div class="img_container ">
                                 <div class="box b-1">
                                     <div class="img-box">
-                                        <img src="<?php echo base_url()?>/assets/beranda/images/selop1.png">
+                                        <img src="<?php echo base_url() ?>/assets/beranda/images/selop1.png">
                                     </div>
                                 </div>
                             </div>
@@ -299,7 +302,7 @@
                             <div class="img_container ">
                                 <div class="box b-1">
                                 <div class="img-box">
-                                        <img src="<?php echo base_url()?>/assets/beranda/images/anggrek_hitam.jpeg">
+                                        <img src="<?php echo base_url() ?>/assets/beranda/images/anggrek_hitam.jpeg">
                                     </div>
                                 </div>
                                 
@@ -350,91 +353,60 @@
     <!-- end discount section -->
 
     <!-- brand section -->
-    
+
     <section id='gallery' class="brand_section">
         <div class="container">
             <div class="heading_container">
                 <h2>
-                   Gallery
+                    Gallery
                 </h2>
             </div>
             <div class="brand_container layout_padding2">
                 <div class="box">
-                    <a href="">
-                        <div class="new">
-                            <h5>
-                                New
-                            </h5>
-                        </div>
-                        <div class="img-box">
-                            <img src="<?php echo base_url()?>/assets/beranda/images/kae1.jpg" alt="">
-                        </div>
-                    </a>
+
+                    <div class="new">
+                        <h5>
+                            New
+                        </h5>
+                    </div>
+                    <div class="img-box">
+                        <img src="<?php echo base_url() ?>/assets/beranda/images/kae1.jpg" alt="">
+                    </div>
                 </div>
                 <div class="box">
-                    <a href="">
-                        <div class="img-box">
-                            <img src="<?php echo base_url()?>/assets/beranda/images/kae2.jpg" alt="">
-                        </div>
-                        <div class="detail-box">
-                            <h6 class="price">
-                                
-                            </h6>
-                            <h6>
-                            
-                            </h6>
-                        </div>
-                    </a>
+                    <div class="img-box">
+                        <img src="<?php echo base_url() ?>/assets/beranda/images/kae2.jpg" alt="">
+                    </div>
                 </div>
                 <div class="box">
-                        <div class="img-box">
-                            <img src="<?php echo base_url()?>/assets/beranda/images/kae3.jpg" alt="">
-                        </div>
+                    <div class="img-box">
+                        <img src="<?php echo base_url() ?>/assets/beranda/images/kae3.jpg" alt="">
+                    </div>
                 </div>
                 <div class="box">
-                        <div class="img-box">
-                            <img src="<?php echo base_url()?>/assets/beranda/images/kae4.jpg" alt="">
-                        </div>
+                    <div class="img-box">
+                        <img src="<?php echo base_url() ?>/assets/beranda/images/kae4.jpg" alt="">
+                    </div>
                 </div>
                 <div class="box">
-                        <div class="img-box mb-2">
-                            <img src="<?php echo base_url()?>/assets/beranda/images/kae5.jpg" alt="">
-                        </div>
+                    <div class="img-box mb-2">
+                        <img src="<?php echo base_url() ?>/assets/beranda/images/kae5.jpg" alt="">
+                    </div>
                 </div>
                 <div class="box">
-                        <div class="img-box">
-                            <img src="<?php echo base_url()?>/assets/beranda/images/kae6.jpg" alt="">
-                        </div>
+                    <div class="img-box">
+                        <img src="<?php echo base_url() ?>/assets/beranda/images/kae6.jpg" alt="">
+                    </div>
                 </div>
                 <div class="box">
-                    <a href="">
-                        <div class="img-box mb-4">
-                            <img src="<?php echo base_url()?>/assets/beranda/images/kae7.jpg" alt="">
-                        </div>
-                        <div class="detail-box">
-                            <h6 class="price">
-                            
-                            </h6>
-                            <h6>
-                                
-                            </h6>
-                        </div>
-                    </a>
+                    <div class="img-box mb-4">
+                        <img src="<?php echo base_url() ?>/assets/beranda/images/kae7.jpg" alt="">
+                    </div>
                 </div>
                 <div class="box">
-                    <a href="">
-                        <div class="img-box mb-4">
-                            <img src="<?php echo base_url()?>/assets/beranda/images/kae8.jpg" alt="">
-                        </div>
-                        <div class="detail-box">
-                            <h6 class="price">
-                                
-                            </h6>
-                            <h6>
-                                
-                            </h6>
-                        </div>
-                    </a>
+                    <div class="img-box mb-4">
+                        <img src="<?php echo base_url() ?>/assets/beranda/images/kae8.jpg" alt="">
+                    </div>
                 </div>
             </div>
             <a href="" class="brand-btn">
@@ -442,8 +414,8 @@
             </a>
         </div>
     </section>
-                       
-   
+
+
 
     <!-- end brand section -->
     <!-- contact section -->
@@ -484,7 +456,7 @@
                     <div class="map_container">
                         <div class="map-responsive">
                             <!-- <iframe src="https://maps.app.goo.gl/a7VfyV5dafuVTDwh8" width="100" height="200" frameborder="0" style="border:0; width: 100%; height:100%" allowfullscreen></iframe> -->
-                                <iframe id='Lokasi' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.435717732693!2d107.49156430933313!3d-6.46635669349829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6913a7cd350875%3A0x9fa3064cd2a55ee8!2sBintang%20Hijau%20Farm!5e0!3m2!1sid!2sid!4v1717077496558!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe id='Lokasi' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.435717732693!2d107.49156430933313!3d-6.46635669349829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6913a7cd350875%3A0x9fa3064cd2a55ee8!2sBintang%20Hijau%20Farm!5e0!3m2!1sid!2sid!4v1717077496558!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>
@@ -610,7 +582,7 @@
                             Informations
                         </h5>
                         <p>
-                            
+
                         </p>
                     </div>
                 </div>
