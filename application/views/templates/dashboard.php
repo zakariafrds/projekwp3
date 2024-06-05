@@ -40,21 +40,21 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <ul class="navbar-nav bg-success sidebar sidebar-light accordion shadow-sm" id="accordionSidebar">
+        <ul class="navbar-nav bg-success sidebar text-white accordion shadow-sm" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex text-white align-items-center bg-teal justify-content-center" href="">
+            <a class="sidebar-brand d-flex text-light align-items-center bg-success justify-content-center" href="">
                 <div class="sidebar-brand-icon">
-                    <i class="fas fa-university"></i>
+                    <i class="fas fa-seedling text-white"></i>
                 </div>
                 <div class="sidebar-brand-text mx-3">Manajamen Anggrek</div>
             </a>
 
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item">
+            <li class="nav-item text-light">
                 <a class="nav-link" href="<?= base_url('dashboard'); ?>">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span>
+                    <i class="fas fa-fw fa-tachometer-alt text-white"></i>
+                    <span class="text-white">Dashboard</span>
                 </a>
             </li>
 
@@ -69,28 +69,28 @@
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
                 <a class="nav-link pb-0" href="<?= base_url('supplier'); ?>">
-                    <i class="fas fa-fw fa-users"></i>
-                    <span>Supplier</span>
+                    <i class="fas fa-fw fa-users text-white"></i>
+                    <span class="text-white">Supplier</span>
                 </a>
             </li>
 
             <li class="nav-item">
                 <a class="nav-link pb-0" href="<?= base_url('kondisi'); ?>">
-                    <i class="fas fa-fw fa-feather"></i>
-                    <span>Kondisi Tanaman</span>
+                    <i class="fas fa-fw fa-feather text-white"></i>
+                    <span class="text-white">Kondisi Tanaman</span>
                 </a>
             </li>
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed " href="#" data-toggle="collapse" data-target="#collapseMaster"
+                <a class="nav-link collapsed text-white" href="#" data-toggle="collapse" data-target="#collapseMaster"
                     aria-expanded="true" aria-controls="collapseMaster">
-                    <i class="fas fa-fw fa-folder"></i>
-                    <span>Barang</span>
+                    <i class="fas fa-fw fa-folder text-white"></i>
+                    <span class="text-white">Barang</span>
                 </a>
                 <div id="collapseMaster" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-light py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Master Barang:</h6>
+                        <h6 class="collapse-header text-success">Master Barang:</h6>
                         <a class="collapse-item" href="<?= base_url('satuan'); ?>">Satuan Barang</a>
                         <a class="collapse-item" href="<?= base_url('jenis'); ?>">Jenis Barang</a>
                         <a class="collapse-item" href="<?= base_url('barang'); ?>">Data Barang</a>
@@ -109,16 +109,16 @@
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
                 <a class="nav-link pb-0" href="<?= base_url('barangmasuk'); ?>">
-                    <i class="fas fa-fw fa-download"></i>
-                    <span>Barang Masuk</span>
+                    <i class="fas fa-fw fa-download text-white"></i>
+                    <span class="text-white">Barang Masuk</span>
                 </a>
             </li>
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
                 <a class="nav-link" href="<?= base_url('barangkeluar'); ?>">
-                    <i class="fas fa-fw fa-upload"></i>
-                    <span>Barang Keluar</span>
+                    <i class="fas fa-fw fa-upload text-white"></i>
+                    <span class="text-white">Barang Keluar</span>
                 </a>
             </li>
 
@@ -132,8 +132,8 @@
 
             <li class="nav-item">
                 <a class="nav-link" href="<?= base_url('laporan'); ?>">
-                    <i class="fas fa-fw fa-print"></i>
-                    <span>Cetak Laporan</span>
+                    <i class="fas fa-fw fa-print text-white"></i>
+                    <span class="text-white">Cetak Laporan</span>
                 </a>
             </li>
 
@@ -149,8 +149,8 @@
             <!-- Nav Item -->
             <li class="nav-item">
                 <a class="nav-link" href="<?= base_url('user'); ?>">
-                    <i class="fas fa-fw fa-user-plus"></i>
-                    <span>User Management</span>
+                    <i class="fas fa-fw fa-user-plus text-white"></i>
+                    <span class="text-white">User Management</span>
                 </a>
             </li>
             <?php endif; ?>
@@ -160,7 +160,7 @@
 
             <!-- Sidebar Toggler (Sidebar) -->
             <div class="text-center d-none d-md-inline">
-                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+                <button class="rounded-circle border-0 text-success" id="sidebarToggle"></button>
             </div>
 
         </ul>
@@ -176,8 +176,8 @@
                 <nav class="navbar navbar-expand navbar-dark bg-white topbar mb-4 static-top shadow-sm">
 
                     <!-- Sidebar Toggle (Topbar) -->
-                    <button id="sidebarToggleTop" class="btn btn-link bg-transparent d-md-none rounded-circle mr-3">
-                        <i class="fa fa-bars text-white"></i>
+                    <button id="sidebarToggleTop" class="btn btn-link bg-dark d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars text-dark"></i>
                     </button>
 
                     <!-- Topbar Navbar -->
@@ -187,10 +187,10 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline small text-capitalize">
+                                <span class="mr-2 d-none d-lg-inline small text-capitalize-secondary">
                                     <?= userdata('nama'); ?>
                                 </span>
-                                <img class="img-profile rounded-circle"
+                                <img class="img-profile rounded-box"
                                     src="<?= base_url() ?>assets/img/avatar/<?= userdata('foto'); ?>">
                             </a>
                             <!-- Dropdown - User Information -->
