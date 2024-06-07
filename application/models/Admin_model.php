@@ -47,12 +47,13 @@ class Admin_model extends CI_Model
         $this->db->order_by('id_barang');
         return $this->db->get('barang b')->result_array();
     }
-    public function getKondisi()
+    
+    public function getStatus()
     {
-        $this->db->join('jenis j', 'b.jenis_id = j.id_jenis');
-        $this->db->join('satuan s', 'b.satuan_id = s.id_satuan');
-        $this->db->order_by('id_barang');
-        return $this->db->get('barang b')->result_array();
+        $this->db->join('jenis j', 'st.jenis_id = j.id_jenis');
+        $this->db->join('satuan s', 'st.satuan_id = s.id_satuan');
+        $this->db->order_by('id_status');
+        return $this->db->get('status st')->result_array();
     }
 
     public function getBarangMasuk($limit = null, $id_barang = null, $range = null)
