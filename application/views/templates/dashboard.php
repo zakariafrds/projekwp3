@@ -75,7 +75,7 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link pb-0" href="<?= base_url('kondisi'); ?>">
+                <a class="nav-link pb-0" href="<?= base_url('status'); ?>">
                     <i class="fas fa-fw fa-feather text-white"></i>
                     <span class="text-white">Kondisi Tanaman</span>
                 </a>
