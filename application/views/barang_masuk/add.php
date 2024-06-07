@@ -1,6 +1,6 @@
 <div class="row justify-content-center">
     <div class="col-md-8">
-        <div class="card shadow-sm border-bottom-success">
+        <div class="card shadow-sm border-bottom-light">
             <div class="card-header bg-success py-3">
                 <div class="row">
                     <div class="col">
@@ -33,7 +33,8 @@
                 <div class="row form-group">
                     <label class="col-md-4 text-md-right" for="tanggal_masuk">Tanggal Masuk</label>
                     <div class="col-md-4">
-                        <input value="<?= set_value('tanggal_masuk', date('Y-m-d')); ?>" name="tanggal_masuk" id="tanggal_masuk" type="text" class="form-control date" placeholder="Tanggal Masuk...">
+                        <input value="<?= set_value('tanggal_masuk', date('Y-m-d')); ?>" name="tanggal_masuk"
+                            id="tanggal_masuk" type="text" class="form-control date" placeholder="Tanggal Masuk...">
                         <?= form_error('tanggal_masuk', '<small class="text-danger">', '</small>'); ?>
                     </div>
                 </div>
@@ -43,12 +44,14 @@
                         <div class="input-group">
                             <select name="supplier_id" id="supplier_id" class="custom-select">
                                 <option value="" selected disabled>Pilih Supplier</option>
-                                <?php foreach ($supplier as $s) : ?>
-                                    <option <?= set_select('supplier_id', $s['id_supplier']) ?> value="<?= $s['id_supplier'] ?>"><?= $s['nama_supplier'] ?></option>
+                                <?php foreach ($supplier as $s): ?>
+                                    <option <?= set_select('supplier_id', $s['id_supplier']) ?>
+                                        value="<?= $s['id_supplier'] ?>"><?= $s['nama_supplier'] ?></option>
                                 <?php endforeach; ?>
                             </select>
                             <div class="input-group-append">
-                                <a class="btn btn-success" href="<?= base_url('supplier/add'); ?>"><i class="fa fa-plus"></i></a>
+                                <a class="btn btn-success" href="<?= base_url('supplier/add'); ?>"><i
+                                        class="fa fa-plus"></i></a>
                             </div>
                         </div>
                         <?= form_error('supplier_id', '<small class="text-danger">', '</small>'); ?>
@@ -60,12 +63,16 @@
                         <div class="input-group">
                             <select name="barang_id" id="barang_id" class="custom-select">
                                 <option value="" selected disabled>Pilih Barang</option>
-                                <?php foreach ($barang as $b) : ?>
-                                    <option <?= $this->uri->segment(3) == $b['id_barang'] ? 'selected' : '';  ?> <?= set_select('barang_id', $b['id_barang']) ?> value="<?= $b['id_barang'] ?>"><?= $b['id_barang'] . ' | ' . $b['nama_barang'] ?></option>
+                                <?php foreach ($barang as $b): ?>
+                                    <option <?= $this->uri->segment(3) == $b['id_barang'] ? 'selected' : ''; ?>
+                                        <?= set_select('barang_id', $b['id_barang']) ?> value="<?= $b['id_barang'] ?>">
+                                        <?= $b['id_barang'] . ' | ' . $b['nama_barang'] ?>
+                                    </option>
                                 <?php endforeach; ?>
                             </select>
                             <div class="input-group-append">
-                                <a class="btn btn-success" href="<?= base_url('barang/add'); ?>"><i class="fa fa-plus"></i></a>
+                                <a class="btn btn-success" href="<?= base_url('barang/add'); ?>"><i
+                                        class="fa fa-plus"></i></a>
                             </div>
                         </div>
                         <?= form_error('barang_id', '<small class="text-danger">', '</small>'); ?>
@@ -81,7 +88,8 @@
                     <label class="col-md-4 text-md-right" for="jumlah_masuk">Jumlah Masuk</label>
                     <div class="col-md-5">
                         <div class="input-group">
-                            <input value="<?= set_value('jumlah_masuk'); ?>" name="jumlah_masuk" id="jumlah_masuk" type="number" class="form-control" placeholder="Jumlah Masuk...">
+                            <input value="<?= set_value('jumlah_masuk'); ?>" name="jumlah_masuk" id="jumlah_masuk"
+                                type="number" class="form-control" placeholder="Jumlah Masuk...">
                             <div class="input-group-append">
                                 <span class="input-group-text" id="satuan">Satuan</span>
                             </div>

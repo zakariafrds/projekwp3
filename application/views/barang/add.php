@@ -46,9 +46,9 @@
                             <select name="jenis_id" id="jenis_id" class="custom-select">
                                 <option value="" selected disabled>Pilih Jenis Barang</option>
                                 <?php foreach ($jenis as $j): ?>
-                                    <option <?= set_select('jenis_id', $j['id_jenis']) ?> value="<?= $j['id_jenis'] ?>">
-                                        <?= $j['nama_jenis'] ?>
-                                    </option>
+                                <option <?= set_select('jenis_id', $j['id_jenis']) ?> value="<?= $j['id_jenis'] ?>">
+                                    <?= $j['nama_jenis'] ?>
+                                </option>
                                 <?php endforeach; ?>
                             </select>
                             <div class="input-group-append">
@@ -66,9 +66,9 @@
                             <select name="satuan_id" id="satuan_id" class="custom-select">
                                 <option value="" selected disabled>Pilih Satuan Barang</option>
                                 <?php foreach ($satuan as $s): ?>
-                                    <option <?= set_select('satuan_id', $s['id_satuan']) ?> value="<?= $s['id_satuan'] ?>">
-                                        <?= $s['nama_satuan'] ?>
-                                    </option>
+                                <option <?= set_select('satuan_id', $s['id_satuan']) ?> value="<?= $s['id_satuan'] ?>">
+                                    <?= $s['nama_satuan'] ?>
+                                </option>
                                 <?php endforeach; ?>
                             </select>
                             <div class="input-group-append">
@@ -80,9 +80,18 @@
                     </div>
                 </div>
                 <div class="row form-group">
+                    <label class="col-md-3 text-md-right" for="nama_barang">Status</label>
+                    <div class="col-md-9">
+                        <input value="<?= set_value('status'); ?>" name="status" id="status" type="text"
+                            class="form-control" placeholder="Status">
+                        <?= form_error('status', '<small class="text-danger">', '</small>'); ?>
+                    </div>
+                </div>
+
+                <div class="row form-group">
                     <div class="col-md-9 offset-md-3">
                         <button type="submit" class="btn btn-success">Simpan</button>
-                        <button type="reset" class="btn btn-danger">Reset</bu>
+                        <button type="reset" class="btn btn-danger">Reset</button>
                     </div>
                 </div>
                 <?= form_close(); ?>

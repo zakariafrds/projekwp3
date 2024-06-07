@@ -1,10 +1,10 @@
 <div class="row justify-content-center">
     <div class="col-md-8">
-        <div class="card shadow-sm border-bottom-success">
-            <div class="card-header bg-white py-3">
+        <div class="card shadow-sm border-bottom-white">
+            <div class="card-header bg-success py-3">
                 <div class="row">
                     <div class="col">
-                        <h4 class="h5 align-middle m-0 font-weight-bold text-success">
+                        <h4 class="h5 align-middle m-0 font-weight-bold text-white">
                             Form Input Barang Keluar
                         </h4>
                     </div>
@@ -33,7 +33,8 @@
                 <div class="row form-group">
                     <label class="col-md-4 text-md-right" for="tanggal_keluar">Tanggal Keluar</label>
                     <div class="col-md-4">
-                        <input value="<?= set_value('tanggal_keluar', date('Y-m-d')); ?>" name="tanggal_keluar" id="tanggal_keluar" type="text" class="form-control date" placeholder="Tanggal Masuk...">
+                        <input value="<?= set_value('tanggal_keluar', date('Y-m-d')); ?>" name="tanggal_keluar"
+                            id="tanggal_keluar" type="text" class="form-control date" placeholder="Tanggal Masuk...">
                         <?= form_error('tanggal_keluar', '<small class="text-danger">', '</small>'); ?>
                     </div>
                 </div>
@@ -43,12 +44,15 @@
                         <div class="input-group">
                             <select name="barang_id" id="barang_id" class="custom-select">
                                 <option value="" selected disabled>Pilih Barang</option>
-                                <?php foreach ($barang as $b) : ?>
-                                    <option value="<?= $b['id_barang'] ?>"><?= $b['id_barang'] . ' | ' . $b['nama_barang'] ?></option>
+                                <?php foreach ($barang as $b): ?>
+                                    <option value="<?= $b['id_barang'] ?>">
+                                        <?= $b['id_barang'] . ' | ' . $b['nama_barang'] ?>
+                                    </option>
                                 <?php endforeach; ?>
                             </select>
                             <div class="input-group-append">
-                                <a class="btn btn-success" href="<?= base_url('barang/add'); ?>"><i class="fa fa-plus"></i></a>
+                                <a class="btn btn-success" href="<?= base_url('barang/add'); ?>"><i
+                                        class="fa fa-plus"></i></a>
                             </div>
                         </div>
                         <?= form_error('barang_id', '<small class="text-danger">', '</small>'); ?>
@@ -64,7 +68,8 @@
                     <label class="col-md-4 text-md-right" for="jumlah_keluar">Jumlah Keluar</label>
                     <div class="col-md-5">
                         <div class="input-group">
-                            <input value="<?= set_value('jumlah_keluar'); ?>" name="jumlah_keluar" id="jumlah_keluar" type="number" class="form-control" placeholder="Jumlah Keluar...">
+                            <input value="<?= set_value('jumlah_keluar'); ?>" name="jumlah_keluar" id="jumlah_keluar"
+                                type="number" class="form-control" placeholder="Jumlah Keluar...">
                             <div class="input-group-append">
                                 <span class="input-group-text" id="satuan">Satuan</span>
                             </div>

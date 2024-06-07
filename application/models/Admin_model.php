@@ -47,6 +47,13 @@ class Admin_model extends CI_Model
         $this->db->order_by('id_barang');
         return $this->db->get('barang b')->result_array();
     }
+    public function getKondisi()
+    {
+        $this->db->join('jenis j', 'b.jenis_id = j.id_jenis');
+        $this->db->join('satuan s', 'b.satuan_id = s.id_satuan');
+        $this->db->order_by('id_barang');
+        return $this->db->get('barang b')->result_array();
+    }
 
     public function getBarangMasuk($limit = null, $id_barang = null, $range = null)
     {

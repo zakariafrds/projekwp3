@@ -1,10 +1,10 @@
 <div class="row justify-content-center">
     <div class="col-md-8">
-        <div class="card shadow-sm border-bottom-success">
-            <div class="card-header bg-white py-3">
+        <div class="card shadow-sm border-bottom-white">
+            <div class="card-header py-3" style="background-color: blue;">
                 <div class="row">
                     <div class="col">
-                        <h4 class="h5 align-middle m-0 font-weight-bold text-success">
+                        <h4 class="h5 align-middle m-0 font-weight-bold text-white">
                             Form Edit Supplier
                         </h4>
                     </div>
@@ -67,11 +67,7 @@
                 <div class="row form-group">
                     <div class="col-md-9 offset-md-3">
                         <button type="submit" class="btn btn-success">Simpan</button>
-<<<<<<< HEAD
                         <button type="reset" class="btn btn-danger">Reset</button>
-=======
-                        <button type="reset" class="btn btn-secondary">Reset</button>
->>>>>>> 2e3438c16e7a0e501fe27386532ddd3a91d705cb
                     </div>
                 </div>
                 <?= form_close(); ?>
