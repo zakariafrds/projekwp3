@@ -15,15 +15,15 @@ class Status extends CI_Controller
     public function index()
     {
         $data['title'] = "Status";
-        $data['Status'] = $this->admin->getStatus();
+        $data['status'] = $this->admin->getBarang();
         $this->template->load('templates/dashboard', 'status/data', $data);
     }
 
     private function _validasi()
     {
-        $this->form_validation->set_rules('nama_status', 'Nama Status', 'required|trim');
-        $this->form_validation->set_rules('jenis_id', 'Jenis Status', 'required');
-        $this->form_validation->set_rules('satuan_id', 'Satuan Status', 'required');
+        $this->form_validation->set_rules('status', 'Nama Status', 'required');
+        // $this->form_validation->set_rules('jenis_id', 'Jenis Status', 'required');
+        // $this->form_validation->set_rules('satuan_id', 'Satuan Status', 'required');
     }
 
     public function add()
@@ -66,11 +66,14 @@ class Status extends CI_Controller
             $data['title'] = "Status";
             $data['jenis'] = $this->admin->get('jenis');
             $data['satuan'] = $this->admin->get('satuan');
-            $data['Status'] = $this->admin->get('status', ['id_status' => $id]);
+            $data['barang'] = $this->admin->get('barang', ['id_barang' => $id]);
             $this->template->load('templates/dashboard', 'status/edit', $data);
         } else {
             $input = $this->input->post(null, true);
-            $update = $this->admin->update('status', 'id_status', $id, $input);
+            // var_dump($input);
+            // die;
+            $update = $this->admin->update('barang', 'id_barang', $id, $input);
+
 
             if ($update) {
                 set_pesan('data berhasil disimpan');

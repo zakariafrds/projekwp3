@@ -24,11 +24,11 @@
             <thead>
                 <tr>
                     <th>No. </th>
-                    <th>ID status</th>
-                    <th>Nama status</th>
-                    <th>Jenis status</th>
-                    <th>Stok</th>
-                    <th>Satuan</th>
+                    <th>ID Barang</th>
+                    <th>Nama </th>
+                    <th>Jenis</th>
+                    
+                    <th>Status</th>
                     <th>Aksi</th>
                 </tr>
             </thead>
@@ -40,16 +40,17 @@
                         ?>
                         <tr>
                             <td><?= $no++; ?></td>
-                            <td><?= $st['id_status']; ?></td>
-                            <td><?= $st['nama_status']; ?></td>
+                            <td><?= $st['id_barang']; ?></td>
+                            <td><?= $st['nama_barang']; ?></td>
                             <td><?= $st['nama_jenis']; ?></td>
-                            <td><?= $st['stok']; ?></td>
-                            <td><?= $st['nama_satuan']; ?></td>
+                           
+                            <td class="text-<?= $st['status'] == "Sakit" ? 'warning' : 'success'; ?>"><?= $st['status']; ?></td>
+                           
                             <td>
-                                <a href="<?= base_url('status/edit/') . $st['id_status'] ?>"
+                                <a href="<?= base_url('status/edit/') . $st['id_barang'] ?>"
                                     class="btn btn-warning btn-circle btn-sm"><i class="fa fa-edit"></i></a>
                                 <a onclick="return confirm('Yakin ingin hapus?')"
-                                    href="<?= base_url('status/delete/') . $st['id_status'] ?>"
+                                    href="<?= base_url('status/delete/') . $st['id_barang'] ?>"
                                     class="btn btn-danger btn-circle btn-sm"><i class="fa fa-trash"></i></a>
                             </td>
                         </tr>
@@ -65,3 +66,5 @@
         </table>
     </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
