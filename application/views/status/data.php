@@ -7,16 +7,7 @@
                     Data status
                 </h4>
             </div>
-            <div class="col-auto">
-                <a href="<?= base_url('status/add') ?>" class="btn btn-sm btn-success btn-icon-split">
-                    <span class="icon">
-                        <i class="fa fa-plus"></i>
-                    </span>
-                    <span class="text">
-                        Tambah status
-                    </span>
-                </a>
-            </div>
+ 
         </div>
     </div>
     <div class="table-responsive">
@@ -52,7 +43,7 @@
 
                             <td>
                                 <a href="<?= base_url('status/edit/') . $st['id_barang'] . "/" . $st['kode_tanaman'] ?>" class="btn btn-warning btn-circle btn-sm"><i class="fa fa-edit"></i></a>
-                                <a onclick="return confirm('Yakin ingin hapus?')" href="<?= base_url('status/delete/') . $st['id_barang'] ?>" class="btn btn-danger btn-circle btn-sm"><i class="fa fa-trash"></i></a>
+                            
                             </td>
                         </tr>
                     <?php endforeach; ?>
