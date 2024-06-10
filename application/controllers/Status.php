@@ -15,7 +15,7 @@ class Status extends CI_Controller
     public function index()
     {
         $data['title'] = "Status";
-        $data['status'] = $this->admin->getBarang();
+        $data['status'] = $this->admin->getTanaman();
         $this->template->load('templates/dashboard', 'status/data', $data);
     }
 
@@ -64,16 +64,21 @@ class Status extends CI_Controller
 
         if ($this->form_validation->run() == false) {
             $data['title'] = "Status";
-            $data['jenis'] = $this->admin->get('jenis');
-            $data['satuan'] = $this->admin->get('satuan');
             $data['barang'] = $this->admin->get('barang', ['id_barang' => $id]);
+            $data['kondisi'] = $this->db->get_where('tanaman', ['kode_tanaman' => $this->uri->segment('4')])->row_array();
             $this->template->load('templates/dashboard', 'status/edit', $data);
         } else {
-            $input = $this->input->post(null, true);
+            // var_dump($this->input->post());
+            // die;
+            $input = [
+                "kondisi" => $this->input->post('status')
+            ];
+
             // var_dump($input);
             // die;
-            $update = $this->admin->update('barang', 'id_barang', $id, $input);
-
+            $kode_tanaman = $this->input->post('kode_tanaman');
+            $this->load->model('Tanaman_model');
+            $update = $this->Tanaman_model->update('tanaman', 'kode_tanaman', $kode_tanaman, $input);
 
             if ($update) {
                 set_pesan('data berhasil disimpan');

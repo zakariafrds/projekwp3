@@ -47,7 +47,19 @@ class Admin_model extends CI_Model
         $this->db->order_by('id_barang');
         return $this->db->get('barang b')->result_array();
     }
-    
+
+    public function getTanaman()
+    {
+        // $this->db->join('jenis', 'b.jenis_id = jenis.id_jenis');
+        // $this->db->join('satuan', 'b.satuan_id = satuan.id_satuan');
+        // // $this->db->get('barang as b');
+        // $this->db->join('barang b', 'tanaman.id_barang = b.id_barang');
+        // $this->db->order_by('id_barang');
+        // $this->db->get('tanaman')->result_array();
+        $query = "SELECT * FROM tanaman JOIN barang on barang.id_barang=tanaman.id_barang JOIN satuan on barang.satuan_id=satuan.id_satuan JOIN jenis on barang.jenis_id=jenis.id_jenis";
+        return $this->db->query($query)->result_array();
+    }
+
     public function getStatus()
     {
         $this->db->join('jenis j', 'st.jenis_id = j.id_jenis');
