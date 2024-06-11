@@ -15,7 +15,8 @@
     <title>Pendataan Anggrek</title>
 
     <!-- slider stylesheet -->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
 
     <!-- bootstrap core css -->
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/beranda') ?>/css/bootstrap.css" />
@@ -29,7 +30,7 @@
     <link href="<?php echo base_url('assets/beranda') ?>/css/responsive.css" rel="stylesheet" />
 </head>
 <style>
-    /* .hero-area{
+/* .hero-area{
     background-image: url("images/anggrekb.png") !important;
   } */
 </style>
@@ -43,7 +44,9 @@
                     <a class="navbar-brand" href="index.html">
                         <!-- <img src="" alt="" /> -->
                     </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
@@ -149,14 +152,26 @@
                                 <img src="images/" alt="">
                             </div>
                             <p class="text-dark">
-                                "Anggrek (Orchidaceae) merupakan tanaman yang mudah beradaptasi dengan lingkungannya. Tak heran, apabila tanaman anggek bisa dijumpai hampir di seluruh bagian di dunia. Lokasi tumbuh mereka juga bisa sangat beragam.
-                                Mulai dari daerah dataran rendah hingga dataran tinggi, mulai dari kawasan yang bersuhu dingin hingga bersuhu panas.
-                                Secara umum anggrek bisa digolongkan menjadi dua, yaitu epifit dan terresterial. Kategori epifit merupakan jenis anggrek yang tumbuhnya menempel pada tanaman lain, namun tidak bersifat parasit atau merugikan tanaman yang ditumpanginya. Contoh anggrek jenis ini ialah genus Dendrobium, Bulbophyllum, dan Coelogyne.
-                                Sedangkan kategori terresterial adalah anggrek yang tumbuhnya di tanah, contohnya ialah genus Spathoglottis, Calanthe, dan Paphiope-dilum.
+                                "Anggrek (Orchidaceae) merupakan tanaman yang mudah beradaptasi dengan lingkungannya.
+                                Tak heran, apabila tanaman anggek bisa dijumpai hampir di seluruh bagian di dunia.
+                                Lokasi tumbuh mereka juga bisa sangat beragam.
+                                Mulai dari daerah dataran rendah hingga dataran tinggi, mulai dari kawasan yang bersuhu
+                                dingin hingga bersuhu panas.
+                                Secara umum anggrek bisa digolongkan menjadi dua, yaitu epifit dan terresterial.
+                                Kategori epifit merupakan jenis anggrek yang tumbuhnya menempel pada tanaman lain, namun
+                                tidak bersifat parasit atau merugikan tanaman yang ditumpanginya. Contoh anggrek jenis
+                                ini ialah genus Dendrobium, Bulbophyllum, dan Coelogyne.
+                                Sedangkan kategori terresterial adalah anggrek yang tumbuhnya di tanah, contohnya ialah
+                                genus Spathoglottis, Calanthe, dan Paphiope-dilum.
                                 <br>
-                                "Sejauh ini telah teridentifikasi sekitar 750 famili, 43.000 spesies, dan 35.000 varietas hibrida anggrek dari seluruh penjuru dunia. Indonesia sekurannya memiliki 5.000 spesies.
-                                Dari jumlah itu, 986 spesies tersebar di hutan-hutan di Pulau Jawa, 971 spesies berada di Pulau Sumatra, 113 spesies tumbuh di Kepulauan Maluku, dan sisanya bisa ditemukan di Sulawesi, Irian Jaya, Nusa Tenggara, dan Kalimantan.
-                                Anggrek Bulan adalah salah satu jenis anggrek alam yang memiliki pesona sangat indah dan banyak diminati di Indonesia.
+                                "Sejauh ini telah teridentifikasi sekitar 750 famili, 43.000 spesies, dan 35.000
+                                varietas hibrida anggrek dari seluruh penjuru dunia. Indonesia sekurannya memiliki 5.000
+                                spesies.
+                                Dari jumlah itu, 986 spesies tersebar di hutan-hutan di Pulau Jawa, 971 spesies berada
+                                di Pulau Sumatra, 113 spesies tumbuh di Kepulauan Maluku, dan sisanya bisa ditemukan di
+                                Sulawesi, Irian Jaya, Nusa Tenggara, dan Kalimantan.
+                                Anggrek Bulan adalah salah satu jenis anggrek alam yang memiliki pesona sangat indah dan
+                                banyak diminati di Indonesia.
 
                             </p>
                         </div>
@@ -409,9 +424,6 @@
                     </div>
                 </div>
             </div>
-            <a href="" class="brand-btn">
-                See More
-            </a>
         </div>
     </section>
 
@@ -456,7 +468,10 @@
                     <div class="map_container">
                         <div class="map-responsive">
                             <!-- <iframe src="https://maps.app.goo.gl/a7VfyV5dafuVTDwh8" width="100" height="200" frameborder="0" style="border:0; width: 100%; height:100%" allowfullscreen></iframe> -->
-                            <iframe id='Lokasi' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.435717732693!2d107.49156430933313!3d-6.46635669349829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6913a7cd350875%3A0x9fa3064cd2a55ee8!2sBintang%20Hijau%20Farm!5e0!3m2!1sid!2sid!4v1717077496558!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe id='Lokasi'
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.435717732693!2d107.49156430933313!3d-6.46635669349829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6913a7cd350875%3A0x9fa3064cd2a55ee8!2sBintang%20Hijau%20Farm!5e0!3m2!1sid!2sid!4v1717077496558!5m2!1sid!2sid"
+                                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>
@@ -684,46 +699,46 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js">
     </script>
     <script type="text/javascript">
-        $(".owl-carousel").owlCarousel({
-            loop: true,
-            margin: 10,
-            nav: true,
-            navText: [],
-            autoplay: true,
-            autoplayHoverPause: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                420: {
-                    items: 2
-                },
-                1000: {
-                    items: 5
-                }
+    $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        navText: [],
+        autoplay: true,
+        autoplayHoverPause: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            420: {
+                items: 2
+            },
+            1000: {
+                items: 5
             }
+        }
 
-        });
+    });
     </script>
     <script>
-        var nav = $("#navbarSupportedContent");
-        var btn = $(".custom_menu-btn");
-        btn.click
-        btn.click(function(e) {
+    var nav = $("#navbarSupportedContent");
+    var btn = $(".custom_menu-btn");
+    btn.click
+    btn.click(function(e) {
 
-            e.preventDefault();
-            nav.toggleClass("lg_nav-toggle");
-            document.querySelector(".custom_menu-btn").classList.toggle("menu_btn-style")
-        });
+        e.preventDefault();
+        nav.toggleClass("lg_nav-toggle");
+        document.querySelector(".custom_menu-btn").classList.toggle("menu_btn-style")
+    });
     </script>
     <script>
-        $('.carousel').on('slid.bs.carousel', function() {
-            $(".indicator-2 li").removeClass("active");
-            indicators = $(".carousel-indicators li.active").data("slide-to");
-            a = $(".indicator-2").find("[data-slide-to='" + indicators + "']").addClass("active");
-            console.log(indicators);
+    $('.carousel').on('slid.bs.carousel', function() {
+        $(".indicator-2 li").removeClass("active");
+        indicators = $(".carousel-indicators li.active").data("slide-to");
+        a = $(".indicator-2").find("[data-slide-to='" + indicators + "']").addClass("active");
+        console.log(indicators);
 
-        })
+    })
     </script>
 
 </body>
