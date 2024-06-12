@@ -12,10 +12,10 @@
     <title>Aplikasi Manggrek</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="<?php echo base_url('assets/beranda/') ?>img/core-img/favicon.ico">
+    <link rel="icon" href="<?php echo base_url('assets/beranda') ?>/img/core-img/favicon.ico">
 
     <!-- Core Stylesheet -->
-    <link rel="stylesheet" href="<?php echo base_url('assets/beranda/') ?>style.css">
+    <link rel="stylesheet" href="<?php echo base_url('assets/beranda') ?>/style.css">
 
 </head>
 
@@ -82,7 +82,7 @@
                     <nav class="classy-navbar justify-content-between" id="alazeaNav">
 
                         <!-- Nav Brand -->
-                        <a href="index.html" class="nav-brand"><img src="" alt=""></a>
+                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -132,7 +132,7 @@
             <!-- Single Hero Post -->
             <div class="single-hero-post bg-overlay">
                 <!-- Post Image -->
-                <div class="slide-img bg-img" style="background-image: url(img/bg-img/1.jpg);"></div>
+                <div class="slide-img bg-img" style="background-image: url(<?php echo base_url('assets/beranda') ?>/img/bg-img/1.jpg);"></div>
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12">
@@ -153,7 +153,7 @@
             <!-- Single Hero Post -->
             <div class="single-hero-post bg-overlay">
                 <!-- Post Image -->
-                <div class="slide-img bg-img" style="background-image: url(http://localhost/projekwp3/assets/beranda/img/bg-img/1.jpg);"></div>
+                <div class="slide-img bg-img" style="background-image: url(img/bg-img/2.jpg);"></div>
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12">
@@ -196,12 +196,12 @@
                         <div class="single-service-area d-flex align-items-center wow fadeInUp" data-wow-delay="100ms">
                             <!-- Icon -->
                             <div class="service-icon mr-30">
-                                <img src="assets/beranda/img/angrek.jpg" alt="">
+                                <img src="img/core-img/s1.png" alt="">
                             </div>
                             <!-- Content -->
                             <div class="service-content">
-                                <h5>Perawatan Tanaman</h5>
-                                <p style="text-align: justify;">Perawatan tanaman melibatkan penyediaan cahaya, air, dan pupuk dalam jumlah yang tepat untuk tanaman Anda. Praktik pemeliharaan ini membantu memperpanjang umur tanaman Anda dan pada akhirnya keindahan taman Anda. Pelajari cara memberikan perhatian yang layak pada tanaman Anda dengan perawatan tanaman yang tepat.</p>
+                                <h5>Plants Care</h5>
+                                <p>In Aenean purus, pretium sito amet sapien denim moste consectet sedoni urna placerat sodales.service its.</p>
                             </div>
                         </div>
 
@@ -209,12 +209,12 @@
                         <div class="single-service-area d-flex align-items-center wow fadeInUp" data-wow-delay="300ms">
                             <!-- Icon -->
                             <div class="service-icon mr-30">
-                                <img src="img/a.png" alt="">
+                                <img src="img/core-img/s2.png" alt="">
                             </div>
                             <!-- Content -->
                             <div class="service-content">
-                                <h5>Fertigasi</h5>
-                                <p style="text-align: justify;">Fertigasi adalah penyuntikan pupuk, digunakan untuk pembenah tanah, pembenah air dan produk lain yang larut dalam air ke dalam sistem irigasi. Chemigasi, injeksi bahan kimia ke dalam sistem irigasi, terkait dengan fertigasi.</p>
+                                <h5>Pressure Washing</h5>
+                                <p>In Aenean purus, pretium sito amet sapien denim moste consectet sedoni urna placerat sodales.service its.</p>
                             </div>
                         </div>
 
@@ -222,12 +222,12 @@
                         <div class="single-service-area d-flex align-items-center wow fadeInUp" data-wow-delay="500ms">
                             <!-- Icon -->
                             <div class="service-icon mr-30">
-                                <img src="img/as.jpg" alt="">
+                                <img src="img/core-img/s3.png" alt="">
                             </div>
                             <!-- Content -->
                             <div class="service-content">
-                                <h5>Pemupukan</h5>
-                                <p style="text-align: justify;">Sementara itu, pupuk yang mengandung fosfor tinggi diperlukan untuk tanaman dewasa, terutama untuk memacu pembungaan. Pupuk fosfor memiliki kandungan senyawa komplek dan penyusun metabolit, yang berfungsi sebagai pengatur enzim dan proses fisiologis. Idealnya, cara pemberian pupuk pada tanaman anggrek melalui daun. Sebab, penyerapan pupuk melalui daun ini lebih efektif daripada penyerapan melalui akar.</p>
+                                <h5>Tree Service &amp; Trimming</h5>
+                                <p>In Aenean purus, pretium sito amet sapien denim moste consectet sedoni urna placerat sodales.service its.</p>
                             </div>
                         </div>
 
@@ -250,107 +250,25 @@
     <!-- ##### About Area Start ##### -->
     <section id="about" class="about-us-area section-padding-100-0">
         <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-12 col-lg-5">
-                    <!-- Section Heading -->
-                    <div class="section-heading">
-                        <h2>ABOUT US</h2>
-                        <p>We are leading in the plants service fields.</p>
-                    </div>
-                    <p>Quisque orci quam, vulputate non commodo finibus, molestie ac ante. Duis in sceleri quesem. Nulla sit amet varius nunc. Maecenas dui, tempeu ullam corper in.</p>
-
-                    <!-- Progress Bar Content Area -->
-                    <div class="alazea-progress-bar mb-50">
-                        <!-- Single Progress Bar -->
-                        <div class="single_progress_bar">
-                            <p>Office plants</p>
-                            <div id="bar1" class="barfiller">
-                                <div class="tipWrap">
-                                    <span class="tip"></span>
-                                </div>
-                                <span class="fill" data-percentage="80"></span>
-                            </div>
-                        </div>
-
-                        <!-- Single Progress Bar -->
-                        <div class="single_progress_bar">
-                            <p>Field manager</p>
-                            <div id="bar2" class="barfiller">
-                                <div class="tipWrap">
-                                    <span class="tip"></span>
-                                </div>
-                                <span class="fill" data-percentage="70"></span>
-                            </div>
-                        </div>
-
-                        <!-- Single Progress Bar -->
-                        <div class="single_progress_bar">
-                            <p>Landscape design</p>
-                            <div id="bar3" class="barfiller">
-                                <div class="tipWrap">
-                                    <span class="tip"></span>
-                                </div>
-                                <span class="fill" data-percentage="85"></span>
-                            </div>
-                        </div>
-
-                        <!-- Single Progress Bar -->
-                        <div class="single_progress_bar">
-                            <p>Garden Care</p>
-                            <div id="bar4" class="barfiller">
-                                <div class="tipWrap">
-                                    <span class="tip"></span>
-                                </div>
-                                <span class="fill" data-percentage="65"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-lg-6">
-                    <div class="alazea-benefits-area">
-                        <div class="row">
-                            <!-- Single Benefits Area -->
-                            <div class="col-12 col-sm-6">
-                                <div class="single-benefits-area">
-                                    <img src="img/core-img/b1.png" alt="">
-                                    <h5>Quality Products</h5>
-                                    <p>Intiam eu sagittis est, at commodo lacini libero. Praesent dignissim sed odio vel aliquam manta lagorn.</p>
-                                </div>
-                            </div>
-
-                            <!-- Single Benefits Area -->
-                            <div class="col-12 col-sm-6">
-                                <div class="single-benefits-area">
-                                    <img src="img/core-img/b2.png" alt="">
-                                    <h5>Perfect Service</h5>
-                                    <p>Intiam eu sagittis est, at commodo lacini libero. Praesent dignissim sed odio vel aliquam manta lagorn.</p>
-                                </div>
-                            </div>
-
-                            <!-- Single Benefits Area -->
-                            <div class="col-12 col-sm-6">
-                                <div class="single-benefits-area">
-                                    <img src="img/core-img/b3.png" alt="">
-                                    <h5>100% Natural</h5>
-                                    <p>Intiam eu sagittis est, at commodo lacini libero. Praesent dignissim sed odio vel aliquam manta lagorn.</p>
-                                </div>
-                            </div>
-
-                            <!-- Single Benefits Area -->
-                            <div class="col-12 col-sm-6">
-                                <div class="single-benefits-area">
-                                    <img src="img/core-img/b4.png" alt="">
-                                    <h5>Environmentally friendly</h5>
-                                    <p>Intiam eu sagittis est, at commodo lacini libero. Praesent dignissim sed odio vel aliquam manta lagorn.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="section-heading text-center">
+                <h2 <h2 style="color: yellowgreen;">TENTANG KAMI</h2>
+                <p>Deksripsi Anggrek</p>
             </div>
-        </div>
+            <div class="row justify-content-between">
+                <div class="col-12 col-lg-6">
+                    <!-- Section Heading -->
+                    
 
+                     <p class="text-justify text-bold" style="font-size: large; position: inherit;">Anggrek (Orchidaceae) merupakan tanaman yang mudah beradaptasi dengan lingkungannya. Tak heran, apabila tanaman anggek bisa dijumpai hampir di seluruh bagian di dunia. Lokasi tumbuh mereka juga bisa sangat beragam. Mulai dari daerah dataran rendah hingga dataran tinggi, mulai dari kawasan yang bersuhu dingin hingga bersuhu panas. Secara umum anggrek bisa digolongkan menjadi dua, yaitu epifit dan terresterial. Kategori epifit merupakan jenis anggrek yang tumbuhnya menempel pada tanaman lain, namun tidak bersifat parasit atau merugikan tanaman yang ditumpanginya. Contoh anggrek jenis ini ialah genus Dendrobium, Bulbophyllum, dan Coelogyne. Sedangkan kategori terresterial adalah anggrek yang tumbuhnya di tanah, contohnya ialah genus Spathoglottis, Calanthe, dan Paphiope-dilum.
+                        "Sejauh ini telah teridentifikasi sekitar 750 famili, 43.000 spesies, dan 35.000 varietas hibrida anggrek dari seluruh penjuru dunia. Indonesia sekurannya memiliki 5.000 spesies. Dari jumlah itu, 986 spesies tersebar di hutan-hutan di Pulau Jawa, 971 spesies berada di Pulau Sumatra, 113 spesies tumbuh di Kepulauan Maluku, dan sisanya bisa ditemukan di Sulawesi, Irian Jaya, Nusa Tenggara, dan Kalimantan. Anggrek Bulan adalah salah satu jenis anggrek alam yang memiliki pesona sangat indah dan banyak diminati di Indonesia.
+                     </p>
+                </div>
+                    <!-- Progress Bar Content Area -->
+                <div class="col-12 col-lg-6">
+                    <img style="size: 200px;" src="<?php echo base_url() ?>/assets/beranda/img/bg-img/bungaa.jpg">
+                </div>
+        </div>
+    </div>
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -759,15 +677,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
     <!-- ##### All Javascript Files ##### -->
     <!-- jQuery-2.2.4 js -->
-    <script src="<?php echo base_url('assets/beranda/') ?>js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="<?php echo base_url('assets/beranda') ?>/js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
-    <script src="<?php echo base_url('assets/beranda/') ?>js/bootstrap/popper.min.js"></script>
+    <script src="<?php echo base_url('assets/beranda') ?>/js/bootstrap/popper.min.js"></script>
     <!-- Bootstrap js -->
-    <script src="<?php echo base_url('assets/beranda/') ?>js/bootstrap/bootstrap.min.js"></script>
+    <script src="<?php echo base_url('assets/beranda') ?>/js/bootstrap/bootstrap.min.js"></script>
     <!-- All Plugins js -->
-    <script src="<?php echo base_url('assets/beranda/') ?>js/plugins/plugins.js"></script>
+    <script src="<?php echo base_url('assets/beranda') ?>/js/plugins/plugins.js"></script>
     <!-- Active js -->
-    <script src="<?php echo base_url('assets/beranda/') ?>js/active.js"></script>
+    <script src="<?php echo base_url('assets/beranda') ?>/js/active.js"></script>
 </body>
 
 </html>
