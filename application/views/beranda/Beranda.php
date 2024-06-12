@@ -39,39 +39,29 @@
                         <div class="top-header-content d-flex align-items-center justify-content-between">
                             <!-- Top Header Content -->
                             <div class="top-header-meta">
-                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="infodeercreative@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> <span>Email: infodeercreative@gmail.com</span></a>
-                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="+1 234 122 122"><i class="fa fa-phone" aria-hidden="true"></i> <span>Call Us: +1 234 122 122</span></a>
+                                <a href="#" data-toggle="tooltip" data-placement="bottom"
+                                    title="infodeercreative@gmail.com"><i class="fa fa-envelope-o"
+                                        aria-hidden="true"></i> <span>Email: legendabintanghijau@gmail.com</span></a>
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="+1 234 122 122"><i
+                                        class="fa fa-phone" aria-hidden="true"></i> <span>Call : 089671432155</span></a>
                             </div>
 
                             <!-- Top Header Content -->
                             <div class="top-header-meta d-flex">
                                 <!-- Language Dropdown -->
                                 <div class="language-dropdown">
-                                    <div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle mr-30" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item" href="#">USA</a>
-                                            <a class="dropdown-item" href="#">UK</a>
-                                            <a class="dropdown-item" href="#">Bangla</a>
-                                            <a class="dropdown-item" href="#">Hindi</a>
-                                            <a class="dropdown-item" href="#">Spanish</a>
-                                            <a class="dropdown-item" href="#">Latin</a>
-                                        </div>
-                                    </div>
                                 </div>
                                 <!-- Login -->
                                 <div class="login">
-                                    <a href="#"><i class="fa fa-user" aria-hidden="true"></i> <span>Login</span></a>
-                                </div>
-                                <!-- Cart -->
-                                <div class="cart">
-                                    <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> <span>Cart <span class="cart-quantity">(1)</span></span></a>
+                                    <a href="auth"><i class="fa fa-user" aria-hidden="true"></i>
+                                        <span>Login</span></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
 
         <!-- ***** Navbar Area ***** -->
@@ -113,7 +103,8 @@
                     <!-- Search Form -->
                     <div class="search-form">
                         <form action="#" method="get">
-                            <input type="search" name="search" id="search" placeholder="Type keywords &amp; press enter...">
+                            <input type="search" name="search" id="search"
+                                placeholder="Type keywords &amp; press enter...">
                             <button type="submit" class="d-none"></button>
                         </form>
                         <!-- Close Icon -->
@@ -132,17 +123,20 @@
             <!-- Single Hero Post -->
             <div class="single-hero-post bg-overlay">
                 <!-- Post Image -->
+<<<<<<< HEAD
                 <div class="slide-img bg-img" style="background-image: url(<?php echo base_url('assets/beranda') ?>/img/bg-img/1.jpg);"></div>
+=======
+                <div class="slide-img bg-img" style="background-image: url(assets/images/pabrik2.jpg);"></div>
+>>>>>>> 3cfffb65ed971ac424a6b5e49c573dd2db298192
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12">
                             <!-- Post Content -->
                             <div class="hero-slides-content text-center">
-                                <h2>Plants exist in the weather and light rays that surround them</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque ante nec ipsum iaculis, ac iaculis ipsum porttitor. Vivamus cursus nisl lectus, id mattis nisl lobortis eu. Duis diam augue, dapibus ut dolor at, mattis maximus dolor.</p>
+                                <h2>Selamat Datang Di PT.Legenda Bintang Hijau</h2>
+                                <p>Perusahaan ini bergerak dibudidaya anggrek bulan yang terletak</p>
                                 <div class="welcome-btn-group">
-                                    <a href="#" class="btn alazea-btn mr-30">GET STARTED</a>
-                                    <a href="#" class="btn alazea-btn active">CONTACT US</a>
+                                    <a href="#about" class="btn alazea-btn mr-30">GET STARTED</a>
                                 </div>
                             </div>
                         </div>
@@ -153,17 +147,22 @@
             <!-- Single Hero Post -->
             <div class="single-hero-post bg-overlay">
                 <!-- Post Image -->
+<<<<<<< HEAD
                 <div class="slide-img bg-img" style="background-image: url(img/bg-img/2.jpg);"></div>
+=======
+                <div class="slide-img bg-img" style="background-image: url(assets/images/siram3.jpg);"></div>
+>>>>>>> 3cfffb65ed971ac424a6b5e49c573dd2db298192
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12">
                             <!-- Post Content -->
                             <div class="hero-slides-content text-center">
-                                <h2>Plants exist in the weather and light rays that surround them</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque ante nec ipsum iaculis, ac iaculis ipsum porttitor. Vivamus cursus nisl lectus, id mattis nisl lobortis eu. Duis diam augue, dapibus ut dolor at, mattis maximus dolor.</p>
+                                <h2>Selamat Datang Di PT.Legenda Bintang Hijau</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque ante
+                                    nec ipsum iaculis, ac iaculis ipsum porttitor. Vivamus cursus nisl lectus, id mattis
+                                    nisl lobortis eu. Duis diam augue, dapibus ut dolor at, mattis maximus dolor.</p>
                                 <div class="welcome-btn-group">
-                                    <a href="#" class="btn alazea-btn mr-30">GET STARTED</a>
-                                    <a href="#" class="btn alazea-btn active">CONTACT US</a>
+                                    <a href="#about" class="btn alazea-btn mr-30">GET STARTED</a>
                                 </div>
                             </div>
                         </div>
@@ -200,8 +199,17 @@
                             </div>
                             <!-- Content -->
                             <div class="service-content">
+<<<<<<< HEAD
                                 <h5>Plants Care</h5>
                                 <p>In Aenean purus, pretium sito amet sapien denim moste consectet sedoni urna placerat sodales.service its.</p>
+=======
+                                <h5>Perawatan Tanaman</h5>
+                                <p style="text-align: justify;">Perawatan tanaman melibatkan penyediaan cahaya, air, dan
+                                    pupuk dalam jumlah yang tepat untuk tanaman Anda. Praktik pemeliharaan ini membantu
+                                    memperpanjang umur tanaman Anda dan pada akhirnya keindahan taman Anda. Pelajari
+                                    cara memberikan perhatian yang layak pada tanaman Anda dengan perawatan tanaman yang
+                                    tepat.</p>
+>>>>>>> 3cfffb65ed971ac424a6b5e49c573dd2db298192
                             </div>
                         </div>
 
@@ -213,8 +221,16 @@
                             </div>
                             <!-- Content -->
                             <div class="service-content">
+<<<<<<< HEAD
                                 <h5>Pressure Washing</h5>
                                 <p>In Aenean purus, pretium sito amet sapien denim moste consectet sedoni urna placerat sodales.service its.</p>
+=======
+                                <h5>Fertigasi</h5>
+                                <p style="text-align: justify;">Fertigasi adalah penyuntikan pupuk, digunakan untuk
+                                    pembenah tanah, pembenah air dan produk lain yang larut dalam air ke dalam sistem
+                                    irigasi. Chemigasi, injeksi bahan kimia ke dalam sistem irigasi, terkait dengan
+                                    fertigasi.</p>
+>>>>>>> 3cfffb65ed971ac424a6b5e49c573dd2db298192
                             </div>
                         </div>
 
@@ -226,8 +242,18 @@
                             </div>
                             <!-- Content -->
                             <div class="service-content">
+<<<<<<< HEAD
                                 <h5>Tree Service &amp; Trimming</h5>
                                 <p>In Aenean purus, pretium sito amet sapien denim moste consectet sedoni urna placerat sodales.service its.</p>
+=======
+                                <h5>Pemupukan</h5>
+                                <p style="text-align: justify;">Sementara itu, pupuk yang mengandung fosfor tinggi
+                                    diperlukan untuk tanaman dewasa, terutama untuk memacu pembungaan. Pupuk fosfor
+                                    memiliki kandungan senyawa komplek dan penyusun metabolit, yang berfungsi sebagai
+                                    pengatur enzim dan proses fisiologis. Idealnya, cara pemberian pupuk pada tanaman
+                                    anggrek melalui daun. Sebab, penyerapan pupuk melalui daun ini lebih efektif
+                                    daripada penyerapan melalui akar.</p>
+>>>>>>> 3cfffb65ed971ac424a6b5e49c573dd2db298192
                             </div>
                         </div>
 
@@ -250,9 +276,115 @@
     <!-- ##### About Area Start ##### -->
     <section id="about" class="about-us-area section-padding-100-0">
         <div class="container">
+<<<<<<< HEAD
             <div class="section-heading text-center">
                 <h2 <h2 style="color: yellowgreen;">TENTANG KAMI</h2>
                 <p>Deksripsi Anggrek</p>
+=======
+            <div class="row justify-content-between">
+                <div class="col-12 col-lg-5">
+                    <!-- Section Heading -->
+                    <div class="section-heading">
+                        <h2>ABOUT US</h2>
+                        <p>We are leading in the plants service fields.</p>
+                    </div>
+                    <p>Quisque orci quam, vulputate non commodo finibus, molestie ac ante. Duis in sceleri quesem. Nulla
+                        sit amet varius nunc. Maecenas dui, tempeu ullam corper in.</p>
+
+                    <!-- Progress Bar Content Area -->
+                    <div class="alazea-progress-bar mb-50">
+                        <!-- Single Progress Bar -->
+                        <div class="single_progress_bar">
+                            <p>Office plants</p>
+                            <div id="bar1" class="barfiller">
+                                <div class="tipWrap">
+                                    <span class="tip"></span>
+                                </div>
+                                <span class="fill" data-percentage="80"></span>
+                            </div>
+                        </div>
+
+                        <!-- Single Progress Bar -->
+                        <div class="single_progress_bar">
+                            <p>Field manager</p>
+                            <div id="bar2" class="barfiller">
+                                <div class="tipWrap">
+                                    <span class="tip"></span>
+                                </div>
+                                <span class="fill" data-percentage="70"></span>
+                            </div>
+                        </div>
+
+                        <!-- Single Progress Bar -->
+                        <div class="single_progress_bar">
+                            <p>Landscape design</p>
+                            <div id="bar3" class="barfiller">
+                                <div class="tipWrap">
+                                    <span class="tip"></span>
+                                </div>
+                                <span class="fill" data-percentage="85"></span>
+                            </div>
+                        </div>
+
+                        <!-- Single Progress Bar -->
+                        <div class="single_progress_bar">
+                            <p>Garden Care</p>
+                            <div id="bar4" class="barfiller">
+                                <div class="tipWrap">
+                                    <span class="tip"></span>
+                                </div>
+                                <span class="fill" data-percentage="65"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <div class="alazea-benefits-area">
+                        <div class="row">
+                            <!-- Single Benefits Area -->
+                            <div class="col-12 col-sm-6">
+                                <div class="single-benefits-area">
+                                    <img src="img/core-img/b1.png" alt="">
+                                    <h5>Quality Products</h5>
+                                    <p>Intiam eu sagittis est, at commodo lacini libero. Praesent dignissim sed odio vel
+                                        aliquam manta lagorn.</p>
+                                </div>
+                            </div>
+
+                            <!-- Single Benefits Area -->
+                            <div class="col-12 col-sm-6">
+                                <div class="single-benefits-area">
+                                    <img src="img/core-img/b2.png" alt="">
+                                    <h5>Perfect Service</h5>
+                                    <p>Intiam eu sagittis est, at commodo lacini libero. Praesent dignissim sed odio vel
+                                        aliquam manta lagorn.</p>
+                                </div>
+                            </div>
+
+                            <!-- Single Benefits Area -->
+                            <div class="col-12 col-sm-6">
+                                <div class="single-benefits-area">
+                                    <img src="img/core-img/b3.png" alt="">
+                                    <h5>100% Natural</h5>
+                                    <p>Intiam eu sagittis est, at commodo lacini libero. Praesent dignissim sed odio vel
+                                        aliquam manta lagorn.</p>
+                                </div>
+                            </div>
+
+                            <!-- Single Benefits Area -->
+                            <div class="col-12 col-sm-6">
+                                <div class="single-benefits-area">
+                                    <img src="img/core-img/b4.png" alt="">
+                                    <h5>Environmentally friendly</h5>
+                                    <p>Intiam eu sagittis est, at commodo lacini libero. Praesent dignissim sed odio vel
+                                        aliquam manta lagorn.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+>>>>>>> 3cfffb65ed971ac424a6b5e49c573dd2db298192
             </div>
             <div class="row justify-content-between">
                 <div class="col-12 col-lg-6">
@@ -311,12 +443,14 @@
             <div class="row alazea-portfolio">
 
                 <!-- Single Portfolio Area -->
-                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item design home-design wow fadeInUp" data-wow-delay="100ms">
+                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item design home-design wow fadeInUp"
+                    data-wow-delay="100ms">
                     <!-- Portfolio Thumbnail -->
                     <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/16.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/16.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 1">
+                        <a href="img/bg-img/16.jpg"
+                            class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 1">
                             <div class="port-hover-text">
                                 <h3>Minimal Flower Store</h3>
                                 <h5>Office Plants</h5>
@@ -331,7 +465,8 @@
                     <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/17.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/17.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 2">
+                        <a href="img/bg-img/17.jpg"
+                            class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 2">
                             <div class="port-hover-text">
                                 <h3>Minimal Flower Store</h3>
                                 <h5>Office Plants</h5>
@@ -341,12 +476,14 @@
                 </div>
 
                 <!-- Single Portfolio Area -->
-                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden design wow fadeInUp" data-wow-delay="300ms">
+                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden design wow fadeInUp"
+                    data-wow-delay="300ms">
                     <!-- Portfolio Thumbnail -->
                     <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/18.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/18.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 3">
+                        <a href="img/bg-img/18.jpg"
+                            class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 3">
                             <div class="port-hover-text">
                                 <h3>Minimal Flower Store</h3>
                                 <h5>Office Plants</h5>
@@ -356,12 +493,14 @@
                 </div>
 
                 <!-- Single Portfolio Area -->
-                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden office-design wow fadeInUp" data-wow-delay="400ms">
+                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden office-design wow fadeInUp"
+                    data-wow-delay="400ms">
                     <!-- Portfolio Thumbnail -->
                     <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/19.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/19.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 4">
+                        <a href="img/bg-img/19.jpg"
+                            class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 4">
                             <div class="port-hover-text">
                                 <h3>Minimal Flower Store</h3>
                                 <h5>Office Plants</h5>
@@ -371,12 +510,14 @@
                 </div>
 
                 <!-- Single Portfolio Area -->
-                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item design office-design wow fadeInUp" data-wow-delay="100ms">
+                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item design office-design wow fadeInUp"
+                    data-wow-delay="100ms">
                     <!-- Portfolio Thumbnail -->
                     <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/20.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/20.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 5">
+                        <a href="img/bg-img/20.jpg"
+                            class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 5">
                             <div class="port-hover-text">
                                 <h3>Minimal Flower Store</h3>
                                 <h5>Office Plants</h5>
@@ -391,7 +532,8 @@
                     <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/21.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/21.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 6">
+                        <a href="img/bg-img/21.jpg"
+                            class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 6">
                             <div class="port-hover-text">
                                 <h3>Minimal Flower Store</h3>
                                 <h5>Office Plants</h5>
@@ -406,7 +548,8 @@
                     <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/22.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/22.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 7">
+                        <a href="img/bg-img/22.jpg"
+                            class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 7">
                             <div class="port-hover-text">
                                 <h3>Minimal Flower Store</h3>
                                 <h5>Office Plants</h5>
@@ -443,13 +586,15 @@
                         </div>
                         <div class="post-content">
                             <a href="single-post.html" class="post-title">
-                                <h5>Garden designers across the country forecast ideas shaping the gardening world in 2018</h5>
+                                <h5>Garden designers across the country forecast ideas shaping the gardening world in
+                                    2018</h5>
                             </a>
                             <div class="post-meta">
                                 <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 20 Jun 2018</a>
                                 <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Alan Jackson</a>
                             </div>
-                            <p class="post-excerpt">Integer luctus diam ac scerisque consectetur. Vimus ottawas nec lacus sit amet. Aenean interdus mid vitae.</p>
+                            <p class="post-excerpt">Integer luctus diam ac scerisque consectetur. Vimus ottawas nec
+                                lacus sit amet. Aenean interdus mid vitae.</p>
                         </div>
                     </div>
                 </div>
@@ -462,13 +607,15 @@
                         </div>
                         <div class="post-content">
                             <a href="single-post.html" class="post-title">
-                                <h5>2018 Midwest Tree and Shrub Conference: Resilient Plants for a Lasting Landscape</h5>
+                                <h5>2018 Midwest Tree and Shrub Conference: Resilient Plants for a Lasting Landscape
+                                </h5>
                             </a>
                             <div class="post-meta">
                                 <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 20 Jun 2018</a>
                                 <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Christina Aguilera</a>
                             </div>
-                            <p class="post-excerpt">Integer luctus diam ac scerisque consectetur. Vimus ottawas nec lacus sit amet. Aenean interdus mid vitae.</p>
+                            <p class="post-excerpt">Integer luctus diam ac scerisque consectetur. Vimus ottawas nec
+                                lacus sit amet. Aenean interdus mid vitae.</p>
                         </div>
                     </div>
                 </div>
@@ -481,13 +628,15 @@
                         </div>
                         <div class="post-content">
                             <a href="single-post.html" class="post-title">
-                                <h5>The summer coming up, it’s time for both us and the flowers to soak up the sunshine</h5>
+                                <h5>The summer coming up, it’s time for both us and the flowers to soak up the sunshine
+                                </h5>
                             </a>
                             <div class="post-meta">
                                 <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 19 Jun 2018</a>
                                 <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Mason Jenkins</a>
                             </div>
-                            <p class="post-excerpt">Integer luctus diam ac scerisque consectetur. Vimus ottawas nec lacus sit amet. Aenean interdus mid vitae.</p>
+                            <p class="post-excerpt">Integer luctus diam ac scerisque consectetur. Vimus ottawas nec
+                                lacus sit amet. Aenean interdus mid vitae.</p>
                         </div>
                     </div>
                 </div>
@@ -511,7 +660,8 @@
                 <div class="col-12 col-lg-6">
                     <div class="subscribe-form">
                         <form action="#" method="get">
-                            <input type="email" name="subscribe-email" id="subscribeEmail" placeholder="Enter your email">
+                            <input type="email" name="subscribe-email" id="subscribeEmail"
+                                placeholder="Enter your email">
                             <button type="submit" class="btn alazea-btn">SUBSCRIBE</button>
                         </form>
                     </div>
@@ -530,12 +680,14 @@
     <section class="contact-area section-padding-100-0">
         <div class="container">
             <div class="row align-items-center justify-content-between">
-                    <!-- Google Maps -->
-                    <div class="map-area mb-100">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22236.40558254599!2d-118.25292394686001!3d34.057682914027104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2z4Kay4Ka4IOCmj-CmnuCnjeCmnOCnh-CmsuCnh-CmuCwg4KaV4KeN4Kav4Ka-4Kay4Ka_4Kar4KeL4Kaw4KeN4Kao4Ka_4Kav4Ka84Ka-LCDgpq7gpr7gprDgp43gppXgpr_gpqgg4Kav4KeB4KaV4KeN4Kak4Kaw4Ka-4Ka34KeN4Kaf4KeN4Kaw!5e0!3m2!1sbn!2sbd!4v1532328708137" allowfullscreen></iframe>
-                    </div>
+                <!-- Google Maps -->
+                <div class="map-area mb-100">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22236.40558254599!2d-118.25292394686001!3d34.057682914027104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2z4Kay4Ka4IOCmj-CmnuCnjeCmnOCnh-CmsuCnh-CmuCwg4KaV4KeN4Kav4Ka-4Kay4Ka_4Kar4KeL4Kaw4KeN4Kao4Ka_4Kav4Ka84Ka-LCDgpq7gpr7gprDgp43gppXgpr_gpqgg4Kav4KeB4KaV4KeN4Kak4Kaw4Ka-4Ka34KeN4Kaf4KeN4Kaw!5e0!3m2!1sbn!2sbd!4v1532328708137"
+                        allowfullscreen></iframe>
                 </div>
             </div>
+        </div>
         </div>
     </section>
     <!-- ##### Contact Area End ##### -->
@@ -648,10 +800,16 @@
                     <!-- Copywrite Text -->
                     <div class="col-12 col-md-6">
                         <div class="copywrite-text">
-                            <p>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-</p>
+                            <p>&copy;
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy;
+                                <script>
+                                document.write(new Date().getFullYear());
+                                </script> All rights reserved | This
+                                template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
+                                    href="https://colorlib.com" target="_blank">Colorlib</a>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>
                         </div>
                     </div>
                     <!-- Footer Nav -->
