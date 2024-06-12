@@ -1,10 +1,10 @@
 <div class="row justify-content-center">
     <div class="col-md-8">
         <div class="card shadow-sm border-bottom-success">
-            <div class="card-header bg-white py-3">
+            <div class="card-header bg-success py-3">
                 <div class="row">
                     <div class="col">
-                        <h4 class="h5 align-middle m-0 font-weight-bold text-success">
+                        <h4 class="h5 align-middle m-0 font-weight-bold text-white">
                             Form Tambah Barang
                         </h4>
                     </div>
@@ -46,9 +46,9 @@
                             <select name="jenis_id" id="jenis_id" class="custom-select">
                                 <option value="" selected disabled>Pilih Jenis Barang</option>
                                 <?php foreach ($jenis as $j): ?>
-                                <option <?= set_select('jenis_id', $j['id_jenis']) ?> value="<?= $j['id_jenis'] ?>">
-                                    <?= $j['nama_jenis'] ?>
-                                </option>
+                                    <option <?= set_select('jenis_id', $j['id_jenis']) ?> value="<?= $j['id_jenis'] ?>">
+                                        <?= $j['nama_jenis'] ?>
+                                    </option>
                                 <?php endforeach; ?>
                             </select>
                             <div class="input-group-append">
@@ -66,9 +66,9 @@
                             <select name="satuan_id" id="satuan_id" class="custom-select">
                                 <option value="" selected disabled>Pilih Satuan Barang</option>
                                 <?php foreach ($satuan as $s): ?>
-                                <option <?= set_select('satuan_id', $s['id_satuan']) ?> value="<?= $s['id_satuan'] ?>">
-                                    <?= $s['nama_satuan'] ?>
-                                </option>
+                                    <option <?= set_select('satuan_id', $s['id_satuan']) ?> value="<?= $s['id_satuan'] ?>">
+                                        <?= $s['nama_satuan'] ?>
+                                    </option>
                                 <?php endforeach; ?>
                             </select>
                             <div class="input-group-append">

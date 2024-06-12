@@ -45,8 +45,8 @@
                             <select name="supplier_id" id="supplier_id" class="custom-select">
                                 <option value="" selected disabled>Pilih Supplier</option>
                                 <?php foreach ($supplier as $s): ?>
-                                    <option <?= set_select('supplier_id', $s['id_supplier']) ?>
-                                        value="<?= $s['id_supplier'] ?>"><?= $s['nama_supplier'] ?></option>
+                                <option <?= set_select('supplier_id', $s['id_supplier']) ?>
+                                    value="<?= $s['id_supplier'] ?>"><?= $s['nama_supplier'] ?></option>
                                 <?php endforeach; ?>
                             </select>
                             <div class="input-group-append">
@@ -64,10 +64,10 @@
                             <select name="barang_id" id="barang_id" class="custom-select">
                                 <option value="" selected disabled>Pilih Barang</option>
                                 <?php foreach ($barang as $b): ?>
-                                    <option <?= $this->uri->segment(3) == $b['id_barang'] ? 'selected' : ''; ?>
-                                        <?= set_select('barang_id', $b['id_barang']) ?> value="<?= $b['id_barang'] ?>">
-                                        <?= $b['id_barang'] . ' | ' . $b['nama_barang'] ?>
-                                    </option>
+                                <option <?= $this->uri->segment(3) == $b['id_barang'] ? 'selected' : ''; ?>
+                                    <?= set_select('barang_id', $b['id_barang']) ?> value="<?= $b['id_barang'] ?>">
+                                    <?= $b['id_barang'] . ' | ' . $b['nama_barang'] ?>
+                                </option>
                                 <?php endforeach; ?>
                             </select>
                             <div class="input-group-append">
@@ -106,7 +106,7 @@
                 <div class="row form-group">
                     <div class="col offset-md-4">
                         <button type="submit" class="btn btn-success">Simpan</button>
-                        <button type="reset" class="btn btn-secondary">Reset</button>
+                        <button type="reset" class="btn btn-danger">Reset</button>
                     </div>
                 </div>
                 <?= form_close(); ?>

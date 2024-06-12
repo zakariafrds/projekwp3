@@ -7,16 +7,7 @@
                     Data status
                 </h4>
             </div>
-            <div class="col-auto">
-                <a href="<?= base_url('status/add') ?>" class="btn btn-sm btn-success btn-icon-split">
-                    <span class="icon">
-                        <i class="fa fa-plus"></i>
-                    </span>
-                    <span class="text">
-                        Tambah status
-                    </span>
-                </a>
-            </div>
+ 
         </div>
     </div>
     <div class="table-responsive">
@@ -25,9 +16,11 @@
                 <tr>
                     <th>No. </th>
                     <th>ID Barang</th>
+                    <th>Kode Tanaman</th>
                     <th>Nama </th>
                     <th>Jenis</th>
-                    
+                    <th>Stok</th>
+
                     <th>Status</th>
                     <th>Aksi</th>
                 </tr>
@@ -35,27 +28,26 @@
             <tbody>
                 <?php
                 $no = 1;
-                if (isset($status)):
-                    foreach ($status as $st):
-                        ?>
+                if (isset($status)) :
+                    foreach ($status as $st) :
+                ?>
                         <tr>
                             <td><?= $no++; ?></td>
                             <td><?= $st['id_barang']; ?></td>
+                            <td><?= $st['kode_tanaman']; ?></td>
                             <td><?= $st['nama_barang']; ?></td>
                             <td><?= $st['nama_jenis']; ?></td>
-                           
-                            <td class="text-<?= $st['status'] == "Sakit" ? 'warning' : 'success'; ?>"><?= $st['status']; ?></td>
-                           
+                            <td><?= $st['stok']; ?></td>
+
+                            <td class="text-<?= $st['kondisi'] == "Sakit" ? 'warning' : 'success'; ?>"><?= $st['kondisi']; ?></td>
+
                             <td>
-                                <a href="<?= base_url('status/edit/') . $st['id_barang'] ?>"
-                                    class="btn btn-warning btn-circle btn-sm"><i class="fa fa-edit"></i></a>
-                                <a onclick="return confirm('Yakin ingin hapus?')"
-                                    href="<?= base_url('status/delete/') . $st['id_barang'] ?>"
-                                    class="btn btn-danger btn-circle btn-sm"><i class="fa fa-trash"></i></a>
+                                <a href="<?= base_url('status/edit/') . $st['id_barang'] . "/" . $st['kode_tanaman'] ?>" class="btn btn-warning btn-circle btn-sm"><i class="fa fa-edit"></i></a>
+                            
                             </td>
                         </tr>
                     <?php endforeach; ?>
-                <?php else: ?>
+                <?php else : ?>
                     <tr>
                         <td colspan="7" class="text-center">
                             Data Kosong
@@ -66,5 +58,5 @@
         </table>
     </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+</script>

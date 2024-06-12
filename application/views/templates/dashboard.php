@@ -43,7 +43,8 @@
         <ul class="navbar-nav bg-success sidebar text-white accordion shadow-sm" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex text-light align-items-center bg-success justify-content-center" href="<?= base_url('dashboard') ?>">
+            <a class="sidebar-brand d-flex text-light align-items-center bg-success justify-content-center"
+                href="<?= base_url('dashboard') ?>">
                 <div class="sidebar-brand-icon">
                     <i class="fas fa-seedling text-white"></i>
                 </div>
