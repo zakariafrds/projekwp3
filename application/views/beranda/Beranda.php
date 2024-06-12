@@ -123,11 +123,8 @@
             <!-- Single Hero Post -->
             <div class="single-hero-post bg-overlay">
                 <!-- Post Image -->
-<<<<<<< HEAD
                 <div class="slide-img bg-img" style="background-image: url(<?php echo base_url('assets/beranda') ?>/img/bg-img/1.jpg);"></div>
-=======
-                <div class="slide-img bg-img" style="background-image: url(assets/images/pabrik2.jpg);"></div>
->>>>>>> 3cfffb65ed971ac424a6b5e49c573dd2db298192
+
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12">
@@ -147,11 +144,9 @@
             <!-- Single Hero Post -->
             <div class="single-hero-post bg-overlay">
                 <!-- Post Image -->
-<<<<<<< HEAD
-                <div class="slide-img bg-img" style="background-image: url(img/bg-img/2.jpg);"></div>
-=======
+
                 <div class="slide-img bg-img" style="background-image: url(assets/images/siram3.jpg);"></div>
->>>>>>> 3cfffb65ed971ac424a6b5e49c573dd2db298192
+
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12">
@@ -199,17 +194,13 @@
                             </div>
                             <!-- Content -->
                             <div class="service-content">
-<<<<<<< HEAD
-                                <h5>Plants Care</h5>
-                                <p>In Aenean purus, pretium sito amet sapien denim moste consectet sedoni urna placerat sodales.service its.</p>
-=======
+
                                 <h5>Perawatan Tanaman</h5>
                                 <p style="text-align: justify;">Perawatan tanaman melibatkan penyediaan cahaya, air, dan
                                     pupuk dalam jumlah yang tepat untuk tanaman Anda. Praktik pemeliharaan ini membantu
                                     memperpanjang umur tanaman Anda dan pada akhirnya keindahan taman Anda. Pelajari
                                     cara memberikan perhatian yang layak pada tanaman Anda dengan perawatan tanaman yang
                                     tepat.</p>
->>>>>>> 3cfffb65ed971ac424a6b5e49c573dd2db298192
                             </div>
                         </div>
 
@@ -221,16 +212,12 @@
                             </div>
                             <!-- Content -->
                             <div class="service-content">
-<<<<<<< HEAD
-                                <h5>Pressure Washing</h5>
-                                <p>In Aenean purus, pretium sito amet sapien denim moste consectet sedoni urna placerat sodales.service its.</p>
-=======
                                 <h5>Fertigasi</h5>
                                 <p style="text-align: justify;">Fertigasi adalah penyuntikan pupuk, digunakan untuk
                                     pembenah tanah, pembenah air dan produk lain yang larut dalam air ke dalam sistem
                                     irigasi. Chemigasi, injeksi bahan kimia ke dalam sistem irigasi, terkait dengan
                                     fertigasi.</p>
->>>>>>> 3cfffb65ed971ac424a6b5e49c573dd2db298192
+
                             </div>
                         </div>
 
@@ -242,10 +229,6 @@
                             </div>
                             <!-- Content -->
                             <div class="service-content">
-<<<<<<< HEAD
-                                <h5>Tree Service &amp; Trimming</h5>
-                                <p>In Aenean purus, pretium sito amet sapien denim moste consectet sedoni urna placerat sodales.service its.</p>
-=======
                                 <h5>Pemupukan</h5>
                                 <p style="text-align: justify;">Sementara itu, pupuk yang mengandung fosfor tinggi
                                     diperlukan untuk tanaman dewasa, terutama untuk memacu pembungaan. Pupuk fosfor
@@ -253,7 +236,7 @@
                                     pengatur enzim dan proses fisiologis. Idealnya, cara pemberian pupuk pada tanaman
                                     anggrek melalui daun. Sebab, penyerapan pupuk melalui daun ini lebih efektif
                                     daripada penyerapan melalui akar.</p>
->>>>>>> 3cfffb65ed971ac424a6b5e49c573dd2db298192
+
                             </div>
                         </div>
 
@@ -276,115 +259,11 @@
     <!-- ##### About Area Start ##### -->
     <section id="about" class="about-us-area section-padding-100-0">
         <div class="container">
-<<<<<<< HEAD
+
             <div class="section-heading text-center">
                 <h2 <h2 style="color: yellowgreen;">TENTANG KAMI</h2>
                 <p>Deksripsi Anggrek</p>
-=======
-            <div class="row justify-content-between">
-                <div class="col-12 col-lg-5">
-                    <!-- Section Heading -->
-                    <div class="section-heading">
-                        <h2>ABOUT US</h2>
-                        <p>We are leading in the plants service fields.</p>
-                    </div>
-                    <p>Quisque orci quam, vulputate non commodo finibus, molestie ac ante. Duis in sceleri quesem. Nulla
-                        sit amet varius nunc. Maecenas dui, tempeu ullam corper in.</p>
 
-                    <!-- Progress Bar Content Area -->
-                    <div class="alazea-progress-bar mb-50">
-                        <!-- Single Progress Bar -->
-                        <div class="single_progress_bar">
-                            <p>Office plants</p>
-                            <div id="bar1" class="barfiller">
-                                <div class="tipWrap">
-                                    <span class="tip"></span>
-                                </div>
-                                <span class="fill" data-percentage="80"></span>
-                            </div>
-                        </div>
-
-                        <!-- Single Progress Bar -->
-                        <div class="single_progress_bar">
-                            <p>Field manager</p>
-                            <div id="bar2" class="barfiller">
-                                <div class="tipWrap">
-                                    <span class="tip"></span>
-                                </div>
-                                <span class="fill" data-percentage="70"></span>
-                            </div>
-                        </div>
-
-                        <!-- Single Progress Bar -->
-                        <div class="single_progress_bar">
-                            <p>Landscape design</p>
-                            <div id="bar3" class="barfiller">
-                                <div class="tipWrap">
-                                    <span class="tip"></span>
-                                </div>
-                                <span class="fill" data-percentage="85"></span>
-                            </div>
-                        </div>
-
-                        <!-- Single Progress Bar -->
-                        <div class="single_progress_bar">
-                            <p>Garden Care</p>
-                            <div id="bar4" class="barfiller">
-                                <div class="tipWrap">
-                                    <span class="tip"></span>
-                                </div>
-                                <span class="fill" data-percentage="65"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-lg-6">
-                    <div class="alazea-benefits-area">
-                        <div class="row">
-                            <!-- Single Benefits Area -->
-                            <div class="col-12 col-sm-6">
-                                <div class="single-benefits-area">
-                                    <img src="img/core-img/b1.png" alt="">
-                                    <h5>Quality Products</h5>
-                                    <p>Intiam eu sagittis est, at commodo lacini libero. Praesent dignissim sed odio vel
-                                        aliquam manta lagorn.</p>
-                                </div>
-                            </div>
-
-                            <!-- Single Benefits Area -->
-                            <div class="col-12 col-sm-6">
-                                <div class="single-benefits-area">
-                                    <img src="img/core-img/b2.png" alt="">
-                                    <h5>Perfect Service</h5>
-                                    <p>Intiam eu sagittis est, at commodo lacini libero. Praesent dignissim sed odio vel
-                                        aliquam manta lagorn.</p>
-                                </div>
-                            </div>
-
-                            <!-- Single Benefits Area -->
-                            <div class="col-12 col-sm-6">
-                                <div class="single-benefits-area">
-                                    <img src="img/core-img/b3.png" alt="">
-                                    <h5>100% Natural</h5>
-                                    <p>Intiam eu sagittis est, at commodo lacini libero. Praesent dignissim sed odio vel
-                                        aliquam manta lagorn.</p>
-                                </div>
-                            </div>
-
-                            <!-- Single Benefits Area -->
-                            <div class="col-12 col-sm-6">
-                                <div class="single-benefits-area">
-                                    <img src="img/core-img/b4.png" alt="">
-                                    <h5>Environmentally friendly</h5>
-                                    <p>Intiam eu sagittis est, at commodo lacini libero. Praesent dignissim sed odio vel
-                                        aliquam manta lagorn.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
->>>>>>> 3cfffb65ed971ac424a6b5e49c573dd2db298192
             </div>
             <div class="row justify-content-between">
                 <div class="col-12 col-lg-6">
