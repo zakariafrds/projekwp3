@@ -449,7 +449,7 @@
                 <div class="col-12">
                     <!-- Section Heading -->
                     <div class="section-heading text-center">
-                        <h2>LATEST NEWS</h2>
+                        <h2 style="color: yellowgreen">KEGIATAN</h2>
                         <p>The breaking news about Gardening &amp; House plants</p>
                     </div>
                 </div>
@@ -458,10 +458,10 @@
             <div class="row justify-content-center">
 
                 <!-- Single Blog Post Area -->
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-10 col-md-5 col-lg-3">
                     <div class="single-blog-post mb-100">
                         <div class="post-thumbnail mb-30">
-                            <a href="single-post.html"><img src="img/bg-img/6.jpg" alt=""></a>
+                            <a href="single-post.html"><img width="70%" src="assets/images/kibow.jpg" alt=""></a>
                         </div>
                         <div class="post-content">
                             <a href="single-post.html" class="post-title">
