@@ -89,7 +89,7 @@
                             <div class="classynav">
                                 <ul>
                                     <li><a href="#home">Home</a></li>
-                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#about">Tentang Kami</a></li>
                                     <li><a href="#galeri">Galeri</a></li>
                                 </ul>
 
@@ -294,7 +294,7 @@
                 <div class="col-12">
                     <!-- Section Heading -->
                     <div class="section-heading text-center">
-                        <h2>GALERY</h2>
+                        <h2>GALERI</h2>
                         <p>Phalaenopsis Amabilis</p>
                     </div>
                 </div>
