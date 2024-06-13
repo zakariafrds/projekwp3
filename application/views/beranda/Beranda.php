@@ -525,24 +525,15 @@
     </section>
     <!-- ##### Blog Area End ##### -->
 
-    <!-- ##### Subscribe Area Start ##### -->
-    <section class="subscribe-newsletter-area" style="background-image: url(img/bg-img/subscribe.png);">
+      <!-- ##### Subscribe Area Start ##### -->
+      <section class="subscribe-newsletter-area" style="background-image: url(assets/img/subscribe.png);">
         <div class="container">
             <div class="row align-items-center justify-content-between">
-                <div class="col-12 col-lg-5">
+                <div class="col-12 col-lg-11">
                     <!-- Section Heading -->
-                    <div class="section-heading mb-0">
-                        <h2>Join the Newsletter</h2>
-                        <p>Subscribe to our newsletter and get 10% off your first purchase</p>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6">
-                    <div class="subscribe-form">
-                        <form action="#" method="get">
-                            <input type="email" name="subscribe-email" id="subscribeEmail"
-                                placeholder="Enter your email">
-                            <button type="submit" class="btn alazea-btn">SUBSCRIBE</button>
-                        </form>
+                    <div class="section-heading mb-0 text-center">
+                        <h2 style="font-align: center">LOKASI KAMI</h2>
+                        <p>Ikuti kami untuk update terbaru kami</p>
                     </div>
                 </div>
             </div>
@@ -550,47 +541,48 @@
 
         <!-- Subscribe Side Thumbnail -->
         <div class="subscribe-side-thumb wow fadeInUp" data-wow-delay="500ms">
-            <img class="first-img" src="img/core-img/leaf.png" alt="">
+            <img class="first-img" src="assets/img/leaf.png" alt="">
         </div>
     </section>
     <!-- ##### Subscribe Area End ##### -->
 
     <!-- ##### Contact Area Start ##### -->
-    <section class="contact-area section-padding-100-0">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <!-- Google Maps -->
-                <div class="map-area mb-100">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22236.40558254599!2d-118.25292394686001!3d34.057682914027104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2z4Kay4Ka4IOCmj-CmnuCnjeCmnOCnh-CmsuCnh-CmuCwg4KaV4KeN4Kav4Ka-4Kay4Ka_4Kar4KeL4Kaw4KeN4Kao4Ka_4Kav4Ka84Ka-LCDgpq7gpr7gprDgp43gppXgpr_gpqgg4Kav4KeB4KaV4KeN4Kak4Kaw4Ka-4Ka34KeN4Kaf4KeN4Kaw!5e0!3m2!1sbn!2sbd!4v1532328708137"
-                        allowfullscreen></iframe>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="map_container">
+                    <div class="map-responsive">
+                        <iframe id='Lokasi'
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.435717732693!2d107.49156430933313!3d-6.46635669349829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6913a7cd350875%3A0x9fa3064cd2a55ee8!2sBintang%20Hijau%20Farm!5e0!3m2!1sid!2sid!4v1717077496558!5m2!1sid!2sid"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
-    </section>
+    </div>
+</section>
     <!-- ##### Contact Area End ##### -->
 
     <!-- ##### Footer Area Start ##### -->
-    <footer class="footer-area bg-img" style="background-image: url(img/bg-img/3.jpg);">
+    <footer class="footer-area bg-img" style="background-image: url(assets/img/3.jpg);">
         <!-- Main Footer Area -->
         <div class="main-footer-area">
             <div class="container">
                 <div class="row">
 
                     <!-- Single Footer Widget -->
-                    <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="col-6 col-sm-3 col-lg-3">
                         <div class="single-footer-widget">
-                            <div class="footer-logo mb-30">
-                                <a href="#"><img src="img/core-img/logo.png" alt=""></a>
+                            <div class="footer-logo mb-20 col-lg-8">
+                                <a href="#"><img src="assets/img/logo_manggrek.png" alt=""></a>
                             </div>
-                            <p>Lorem ipsum dolor sit samet, consectetur adipiscing elit. India situs atione mantor</p>
+                            <p>Perusahaan kami bergerak dibidang tanaman dan peternakan. Khususnya tanaman anggrek</p>
                             <div class="social-info">
                                 <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                                 <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                                 <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="https://www.instagram.com/sukagoatmilk?igsh=ajdkZzJnNjI5bjU1"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
@@ -603,16 +595,12 @@
                             </div>
                             <nav class="widget-nav">
                                 <ul>
-                                    <li><a href="#">Purchase</a></li>
-                                    <li><a href="#">FAQs</a></li>
                                     <li><a href="#">Payment</a></li>
+                                    <li><a href="#">FAQs</a></li>
                                     <li><a href="#">News</a></li>
-                                    <li><a href="#">Return</a></li>
                                     <li><a href="#">Advertise</a></li>
                                     <li><a href="#">Shipping</a></li>
-                                    <li><a href="#">Career</a></li>
                                     <li><a href="#">Orders</a></li>
-                                    <li><a href="#">Policities</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -622,28 +610,28 @@
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="single-footer-widget">
                             <div class="widget-title">
-                                <h5>BEST SELLER</h5>
+                                <h5>BEST PLANTS</h5>
                             </div>
 
                             <!-- Single Best Seller Products -->
                             <div class="single-best-seller-product d-flex align-items-center">
                                 <div class="product-thumbnail">
-                                    <a href="shop-details.html"><img src="img/bg-img/4.jpg" alt=""></a>
+                                    <a href="shop-details.html"><img src="assets/img/anggrek.jpg" alt=""></a>
                                 </div>
                                 <div class="product-info">
-                                    <a href="shop-details.html">Cactus Flower</a>
-                                    <p>$10.99</p>
+                                    <a href="shop-details.html">Anggrek Bulan</a>
+                                    <p>Orchidaceae</p>
                                 </div>
                             </div>
 
                             <!-- Single Best Seller Products -->
                             <div class="single-best-seller-product d-flex align-items-center">
                                 <div class="product-thumbnail">
-                                    <a href="shop-details.html"><img src="img/bg-img/5.jpg" alt=""></a>
+                                    <a href="shop-details.html"><img src="assets/img/anggrek_b.jpg" alt=""></a>
                                 </div>
                                 <div class="product-info">
-                                    <a href="shop-details.html">Tulip Flower</a>
-                                    <p>$11.99</p>
+                                    <a href="shop-details.html">Anggrek Vanda</a>
+                                    <p>Orchidaceae</p>
                                 </div>
                             </div>
                         </div>
@@ -657,11 +645,10 @@
                             </div>
 
                             <div class="contact-information">
-                                <p><span>Address:</span> 505 Silk Rd, New York</p>
-                                <p><span>Phone:</span> +1 234 122 122</p>
-                                <p><span>Email:</span> info.deercreative@gmail.com</p>
-                                <p><span>Open hours:</span> Mon - Sun: 8 AM to 9 PM</p>
-                                <p><span>Happy hours:</span> Sat: 2 PM to 4 PM</p>
+                                <p><span>Address:</span> Bungursari, Purwakarta</p>
+                                <p><span>Phone:</span> +6281222799736 </p>
+                                <p><span>Email:</span> bintanghijaugmail.com</p>
+                                <p><span>Open hours:</span> Monday - Friday : 8 AM to 5 PM</p>
                             </div>
                         </div>
                     </div>
@@ -679,16 +666,8 @@
                     <!-- Copywrite Text -->
                     <div class="col-12 col-md-6">
                         <div class="copywrite-text">
-                            <p>&copy;
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                Copyright &copy;
-                                <script>
-                                document.write(new Date().getFullYear());
-                                </script> All rights reserved | This
-                                template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
-                                    href="https://colorlib.com" target="_blank">Colorlib</a>
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            </p>
+                            &copy; 2024 Kelompok II By
+                            <a href="">Manggrek</a>
                         </div>
                     </div>
                     <!-- Footer Nav -->
@@ -696,12 +675,10 @@
                         <div class="footer-nav">
                             <nav>
                                 <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Service</a></li>
-                                    <li><a href="#">Portfolio</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#home">Home</a></li>
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#galeri">Galeri</a></li>
+                                    
                                 </ul>
                             </nav>
                         </div>
