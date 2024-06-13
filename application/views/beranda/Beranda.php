@@ -533,8 +533,8 @@
                                 <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 20 Jun 2023</a>
                                 <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Khang Agus</a>
                             </div>
-                            <p class="post-excerpt">Integer luctus diam ac scerisque consectetur. Vimus ottawas nec
-                                lacus sit amet. Aenean interdus mid vitae.</p>
+                            <p class="post-excerpt">Aktivitas selanjutnya yaitu penyiraman pada 
+                                tanaman bunga anggrek bulan yang dilakukan setiap hari pada waktu yang sudah ditentukan</p>
                         </div>
                     </div>
                 </div>
@@ -547,15 +547,15 @@
                         </div>
                         <div class="post-content">
                             <a href="single-post.html" class="post-title">
-                                <h5>The summer coming up, it’s time for both us and the flowers to soak up the sunshine
+                                <h5>Penanaman Bibit Anggrek Bulan 
                                 </h5>
                             </a>
                             <div class="post-meta">
-                                <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 19 Jun 2018</a>
-                                <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Mason Jenkins</a>
+                                <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 20 Jun 2023</a>
+                                <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Ihsan Lost his Wallet</a>
                             </div>
-                            <p class="post-excerpt">Integer luctus diam ac scerisque consectetur. Vimus ottawas nec
-                                lacus sit amet. Aenean interdus mid vitae.</p>
+                            <p class="post-excerpt">Setelah dibuatkan media tanam dan siapkan tanaman bunga anggrek bulan
+                                 kemudian dilakukan penanaman pada media tanam yang sudah dibuat</p>
                         </div>
                     </div>
                 </div>
