@@ -43,7 +43,8 @@
                                     title="legendabintanghijau@gmail.com"><i class="fa fa-envelope-o"
                                         aria-hidden="true"></i> <span>Email: legendabintanghijau@gmail.com</span></a>
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="089671432155"><i
-                                        class="fa fa-phone" aria-hidden="true"></i> <span>Call : 089671432155</span></a>
+                                        class="fa fa-phone" aria-hidden="true"></i> <span>Call :
+                                        089671432155</span></a>
                             </div>
 
                             <!-- Top Header Content -->
@@ -273,7 +274,6 @@
                 <div class="col-12 col-lg-6">
                     <!-- Section Heading -->
 
-
                     <p class="text-justify text-bold" style="font-size: large; position: inherit;">Anggrek (Orchidaceae)
                         merupakan tanaman yang mudah beradaptasi dengan lingkungannya. Tak heran, apabila tanaman anggek
                         bisa dijumpai hampir di seluruh bagian di dunia. Lokasi tumbuh mereka juga bisa sangat beragam.
@@ -315,8 +315,8 @@
                 <div class="col-12">
                     <!-- Section Heading -->
                     <div class="section-heading text-center">
-                        <h2>OUR PORTFOLIO</h2>
-                        <p>We devote all of our experience and efforts for creation</p>
+                        <h2>GALERY</h2>
+                        <p>Phalaenopsis Amabilis</p>
                     </div>
                 </div>
             </div>
@@ -328,10 +328,8 @@
                     <div class="alazea-portfolio-filter">
                         <div class="portfolio-filter">
                             <button class="btn active" data-filter="*">All</button>
-                            <button class="btn" data-filter=".design">Coffee Design</button>
+                            <button class="btn" data-filter=".design">Moon Orchid</button>
                             <button class="btn" data-filter=".garden">Garden</button>
-                            <button class="btn" data-filter=".home-design">Home Design</button>
-                            <button class="btn" data-filter=".office-design">Office Design</button>
                         </div>
                     </div>
                 </div>
@@ -343,13 +341,14 @@
                 <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item design home-design wow fadeInUp"
                     data-wow-delay="100ms">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/16.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img"
+                        style="background-image: url(assets/beranda/img/bg-img/kae1.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/16.jpg"
+                        <a href="assets/beranda/img/bg-img/kae1.jpg"
                             class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 1">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
+                                <h3>Anggrek Bulan Putih Bintik Ungu</h3>
                                 <h5>Office Plants</h5>
                             </div>
                         </a>
@@ -359,13 +358,14 @@
                 <!-- Single Portfolio Area -->
                 <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden wow fadeInUp" data-wow-delay="200ms">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/17.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img"
+                        style="background-image: url(assets/beranda/img/bg-img/kae2.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/17.jpg"
+                        <a href="assets/beranda/img/bg-img/kae2.jpg"
                             class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 2">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
+                                <h3>Anggrek Bulan Ungu Putih</h3>
                                 <h5>Office Plants</h5>
                             </div>
                         </a>
@@ -376,13 +376,14 @@
                 <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden design wow fadeInUp"
                     data-wow-delay="300ms">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/18.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img"
+                        style="background-image: url(assets/beranda/img/bg-img/kae3.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/18.jpg"
+                        <a href="assets/beranda/img/bg-img/kae3.jpg"
                             class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 3">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
+                                <h3>Anggrek Bulan Bunga Orange</h3>
                                 <h5>Office Plants</h5>
                             </div>
                         </a>
@@ -393,13 +394,14 @@
                 <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden office-design wow fadeInUp"
                     data-wow-delay="400ms">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/19.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img"
+                        style="background-image: url(assets/beranda/img/bg-img/kae4.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/19.jpg"
+                        <a href="assets/beranda/img/bg-img/kae4.jpg"
                             class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 4">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
+                                <h3>Anggrek Bulan Bunga Pink</h3>
                                 <h5>Office Plants</h5>
                             </div>
                         </a>
@@ -410,13 +412,14 @@
                 <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item design office-design wow fadeInUp"
                     data-wow-delay="100ms">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/20.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img"
+                        style="background-image: url(assets/beranda/img/bg-img/kae5.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/20.jpg"
+                        <a href="assets/beranda/img/bg-img/kae5.jpg"
                             class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 5">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
+                                <h3>Variasi</h3>
                                 <h5>Office Plants</h5>
                             </div>
                         </a>
@@ -426,34 +429,56 @@
                 <!-- Single Portfolio Area -->
                 <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden wow fadeInUp" data-wow-delay="200ms">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/21.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img"
+                        style="background-image: url(assets/beranda/img/bg-img/kae6.png);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/21.jpg"
+                        <a href="assets/beranda/img/bg-img/kae6.png"
                             class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 6">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
+                                <h3>Anggrek Bulan Biru</h3>
                                 <h5>Office Plants</h5>
                             </div>
                         </a>
                     </div>
                 </div>
 
+
                 <!-- Single Portfolio Area -->
-                <div class="col-12 col-lg-6 single_portfolio_item home-design wow fadeInUp" data-wow-delay="300ms">
+                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden wow fadeInUp" data-wow-delay="200ms">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/22.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img"
+                        style="background-image: url(assets/beranda/img/bg-img/kae7.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/22.jpg"
+                        <a href="assets/beranda/img/bg-img/kae7.jpg"
                             class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 7">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
+                                <h3>Anggrek Bulan Bercak Biru</h3>
                                 <h5>Office Plants</h5>
                             </div>
                         </a>
                     </div>
                 </div>
+
+
+                <!-- Single Portfolio Area -->
+                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden wow fadeInUp" data-wow-delay="200ms">
+                    <!-- Portfolio Thumbnail -->
+                    <div class="portfolio-thumbnail bg-img"
+                        style="background-image: url(assets/beranda/img/bg-img/Kae8.jpg);"></div>
+                    <!-- Portfolio Hover Text -->
+                    <div class="portfolio-hover-overlay">
+                        <a href="assets/beranda/img/bg-img/Kae8.jpg"
+                            class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 8">
+                            <div class="port-hover-text">
+                                <h3>Anggrek Bulan Bunga Hitam</h3>
+                                <h5>Office Plants</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
 
             </div>
         </div>
