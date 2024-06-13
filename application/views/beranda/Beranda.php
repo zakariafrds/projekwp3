@@ -39,11 +39,8 @@
                         <div class="top-header-content d-flex align-items-center justify-content-between">
                             <!-- Top Header Content -->
                             <div class="top-header-meta">
-                                <a href="#" data-toggle="tooltip" data-placement="bottom"
-                                    title="infodeercreative@gmail.com"><i class="fa fa-envelope-o"
-                                        aria-hidden="true"></i> <span>Email: legendabintanghijau@gmail.com</span></a>
-                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="+1 234 122 122"><i
-                                        class="fa fa-phone" aria-hidden="true"></i> <span>Call : 089671432155</span></a>
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="infodeercreative@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> <span>Email: legendabintanghijau@gmail.com</span></a>
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="+1 234 122 122"><i class="fa fa-phone" aria-hidden="true"></i> <span>Call : 089671432155</span></a>
                             </div>
 
                             <!-- Top Header Content -->
@@ -104,8 +101,7 @@
                     <!-- Search Form -->
                     <div class="search-form">
                         <form action="#" method="get">
-                            <input type="search" name="search" id="search"
-                                placeholder="Type keywords &amp; press enter...">
+                            <input type="search" name="search" id="search" placeholder="Type keywords &amp; press enter...">
                             <button type="submit" class="d-none"></button>
                         </form>
                         <!-- Close Icon -->
@@ -269,18 +265,18 @@
             <div class="row justify-content-between">
                 <div class="col-12 col-lg-6">
                     <!-- Section Heading -->
-                    
 
-                     <p class="text-justify text-bold" style="font-size: large; position: inherit;">Anggrek (Orchidaceae) merupakan tanaman yang mudah beradaptasi dengan lingkungannya. Tak heran, apabila tanaman anggek bisa dijumpai hampir di seluruh bagian di dunia. Lokasi tumbuh mereka juga bisa sangat beragam. Mulai dari daerah dataran rendah hingga dataran tinggi, mulai dari kawasan yang bersuhu dingin hingga bersuhu panas. Secara umum anggrek bisa digolongkan menjadi dua, yaitu epifit dan terresterial. Kategori epifit merupakan jenis anggrek yang tumbuhnya menempel pada tanaman lain, namun tidak bersifat parasit atau merugikan tanaman yang ditumpanginya. Contoh anggrek jenis ini ialah genus Dendrobium, Bulbophyllum, dan Coelogyne. Sedangkan kategori terresterial adalah anggrek yang tumbuhnya di tanah, contohnya ialah genus Spathoglottis, Calanthe, dan Paphiope-dilum.
+
+                    <p class="text-justify text-bold" style="font-size: large; position: inherit;">Anggrek (Orchidaceae) merupakan tanaman yang mudah beradaptasi dengan lingkungannya. Tak heran, apabila tanaman anggek bisa dijumpai hampir di seluruh bagian di dunia. Lokasi tumbuh mereka juga bisa sangat beragam. Mulai dari daerah dataran rendah hingga dataran tinggi, mulai dari kawasan yang bersuhu dingin hingga bersuhu panas. Secara umum anggrek bisa digolongkan menjadi dua, yaitu epifit dan terresterial. Kategori epifit merupakan jenis anggrek yang tumbuhnya menempel pada tanaman lain, namun tidak bersifat parasit atau merugikan tanaman yang ditumpanginya. Contoh anggrek jenis ini ialah genus Dendrobium, Bulbophyllum, dan Coelogyne. Sedangkan kategori terresterial adalah anggrek yang tumbuhnya di tanah, contohnya ialah genus Spathoglottis, Calanthe, dan Paphiope-dilum.
                         "Sejauh ini telah teridentifikasi sekitar 750 famili, 43.000 spesies, dan 35.000 varietas hibrida anggrek dari seluruh penjuru dunia. Indonesia sekurannya memiliki 5.000 spesies. Dari jumlah itu, 986 spesies tersebar di hutan-hutan di Pulau Jawa, 971 spesies berada di Pulau Sumatra, 113 spesies tumbuh di Kepulauan Maluku, dan sisanya bisa ditemukan di Sulawesi, Irian Jaya, Nusa Tenggara, dan Kalimantan. Anggrek Bulan adalah salah satu jenis anggrek alam yang memiliki pesona sangat indah dan banyak diminati di Indonesia.
-                     </p>
+                    </p>
                 </div>
-                    <!-- Progress Bar Content Area -->
+                <!-- Progress Bar Content Area -->
                 <div class="col-12 col-lg-6">
                     <img style="size: 200px;" src="<?php echo base_url() ?>/assets/beranda/img/bg-img/bungaa.jpg">
                 </div>
+            </div>
         </div>
-    </div>
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -298,8 +294,8 @@
                 <div class="col-12">
                     <!-- Section Heading -->
                     <div class="section-heading text-center">
-                        <h2>OUR PORTFOLIO</h2>
-                        <p>We devote all of our experience and efforts for creation</p>
+                        <h2>GALERY</h2>
+                        <p>Phalaenopsis Amabilis</p>
                     </div>
                 </div>
             </div>
@@ -311,10 +307,8 @@
                     <div class="alazea-portfolio-filter">
                         <div class="portfolio-filter">
                             <button class="btn active" data-filter="*">All</button>
-                            <button class="btn" data-filter=".design">Coffee Design</button>
+                            <button class="btn" data-filter=".design">Moon Orchid</button>
                             <button class="btn" data-filter=".garden">Garden</button>
-                            <button class="btn" data-filter=".home-design">Home Design</button>
-                            <button class="btn" data-filter=".office-design">Office Design</button>
                         </div>
                     </div>
                 </div>
@@ -323,16 +317,14 @@
             <div class="row alazea-portfolio">
 
                 <!-- Single Portfolio Area -->
-                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item design home-design wow fadeInUp"
-                    data-wow-delay="100ms">
+                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item design home-design wow fadeInUp" data-wow-delay="100ms">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/16.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url(assets/beranda/img/bg-img/kae1.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/16.jpg"
-                            class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 1">
+                        <a href="assets/beranda/img/bg-img/kae1.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 1">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
+                                <h3>Anggrek Bulan Putih Bintik Ungu</h3>
                                 <h5>Office Plants</h5>
                             </div>
                         </a>
@@ -342,13 +334,12 @@
                 <!-- Single Portfolio Area -->
                 <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden wow fadeInUp" data-wow-delay="200ms">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/17.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url(assets/beranda/img/bg-img/kae2.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/17.jpg"
-                            class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 2">
+                        <a href="assets/beranda/img/bg-img/kae2.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 2">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
+                                <h3>Anggrek Bulan Ungu Putih</h3>
                                 <h5>Office Plants</h5>
                             </div>
                         </a>
@@ -356,16 +347,14 @@
                 </div>
 
                 <!-- Single Portfolio Area -->
-                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden design wow fadeInUp"
-                    data-wow-delay="300ms">
+                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden design wow fadeInUp" data-wow-delay="300ms">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/18.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url(assets/beranda/img/bg-img/kae3.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/18.jpg"
-                            class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 3">
+                        <a href="assets/beranda/img/bg-img/kae3.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 3">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
+                                <h3>Anggrek Bulan Bunga Orange</h3>
                                 <h5>Office Plants</h5>
                             </div>
                         </a>
@@ -373,16 +362,14 @@
                 </div>
 
                 <!-- Single Portfolio Area -->
-                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden office-design wow fadeInUp"
-                    data-wow-delay="400ms">
+                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden office-design wow fadeInUp" data-wow-delay="400ms">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/19.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url(assets/beranda/img/bg-img/kae4.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/19.jpg"
-                            class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 4">
+                        <a href="assets/beranda/img/bg-img/kae4.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 4">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
+                                <h3>Anggrek Bulan Bunga Pink</h3>
                                 <h5>Office Plants</h5>
                             </div>
                         </a>
@@ -390,16 +377,14 @@
                 </div>
 
                 <!-- Single Portfolio Area -->
-                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item design office-design wow fadeInUp"
-                    data-wow-delay="100ms">
+                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item design office-design wow fadeInUp" data-wow-delay="100ms">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/20.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url(assets/beranda/img/bg-img/kae5.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/20.jpg"
-                            class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 5">
+                        <a href="assets/beranda/img/bg-img/kae5.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 5">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
+                                <h3>Variasi</h3>
                                 <h5>Office Plants</h5>
                             </div>
                         </a>
@@ -409,34 +394,50 @@
                 <!-- Single Portfolio Area -->
                 <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden wow fadeInUp" data-wow-delay="200ms">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/21.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url(assets/beranda/img/bg-img/kae6.png);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/21.jpg"
-                            class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 6">
+                        <a href="assets/beranda/img/bg-img/kae6.png" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 6">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
+                                <h3>Anggrek Bulan Biru</h3>
                                 <h5>Office Plants</h5>
                             </div>
                         </a>
                     </div>
                 </div>
 
+
                 <!-- Single Portfolio Area -->
-                <div class="col-12 col-lg-6 single_portfolio_item home-design wow fadeInUp" data-wow-delay="300ms">
+                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden wow fadeInUp" data-wow-delay="200ms">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/22.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url(assets/beranda/img/bg-img/kae7.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/22.jpg"
-                            class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 7">
+                        <a href="assets/beranda/img/bg-img/kae7.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 7">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
+                                <h3>Anggrek Bulan Bercak Biru</h3>
                                 <h5>Office Plants</h5>
                             </div>
                         </a>
                     </div>
                 </div>
+
+
+                <!-- Single Portfolio Area -->
+                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden wow fadeInUp" data-wow-delay="200ms">
+                    <!-- Portfolio Thumbnail -->
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url(assets/beranda/img/bg-img/Kae8.jpg);"></div>
+                    <!-- Portfolio Hover Text -->
+                    <div class="portfolio-hover-overlay">
+                        <a href="assets/beranda/img/bg-img/Kae8.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 8">
+                            <div class="port-hover-text">
+                                <h3>Anggrek Bulan Bunga Hitam</h3>
+                                <h5>Office Plants</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
 
             </div>
         </div>
@@ -522,8 +523,8 @@
     </section>
     <!-- ##### Blog Area End ##### -->
 
-      <!-- ##### Subscribe Area Start ##### -->
-      <section class="subscribe-newsletter-area" style="background-image: url(assets/img/subscribe.png);">
+    <!-- ##### Subscribe Area Start ##### -->
+    <section class="subscribe-newsletter-area" style="background-image: url(assets/img/subscribe.png);">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12 col-lg-11">
@@ -549,16 +550,13 @@
             <div class="col-12">
                 <div class="map_container">
                     <div class="map-responsive">
-                        <iframe id='Lokasi'
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.435717732693!2d107.49156430933313!3d-6.46635669349829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6913a7cd350875%3A0x9fa3064cd2a55ee8!2sBintang%20Hijau%20Farm!5e0!3m2!1sid!2sid!4v1717077496558!5m2!1sid!2sid"
-                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe id='Lokasi' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.435717732693!2d107.49156430933313!3d-6.46635669349829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6913a7cd350875%3A0x9fa3064cd2a55ee8!2sBintang%20Hijau%20Farm!5e0!3m2!1sid!2sid!4v1717077496558!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
+    </section>
     <!-- ##### Contact Area End ##### -->
 
     <!-- ##### Footer Area Start ##### -->
@@ -675,7 +673,7 @@
                                     <li><a href="#home">Home</a></li>
                                     <li><a href="#about">About</a></li>
                                     <li><a href="#galeri">Galeri</a></li>
-                                    
+
                                 </ul>
                             </nav>
                         </div>
