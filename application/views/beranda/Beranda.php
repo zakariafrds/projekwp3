@@ -87,8 +87,8 @@
                             <!-- Navbar Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li><a href="#home">Home</a></li>
-                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#home">Beranda</a></li>
+                                    <li><a href="#about">Tentang Kami</a></li>
                                     <li><a href="#galeri">Galeri</a></li>
                                 </ul>
 
@@ -257,8 +257,8 @@
         <div class="container">
 
             <div class="section-heading text-center">
-                <h2 <h2 style="color: yellowgreen;">TENTANG KAMI</h2>
-                <p>Deksripsi Anggrek</p>
+                <h2 style="color: yellowgreen;">TENTANG KAMI</>
+                    <p>Deksripsi Anggrek</p>
 
             </div>
             <div class="row justify-content-between">
@@ -293,7 +293,7 @@
                 <div class="col-12">
                     <!-- Section Heading -->
                     <div class="section-heading text-center">
-                        <h2>GALERY</h2>
+                        <h2 style="color: yellowgreen;">GALERI</h2>
                         <p>Phalaenopsis Amabilis</p>
                     </div>
                 </div>
@@ -450,7 +450,7 @@
                 <div class="col-12">
                     <!-- Section Heading -->
                     <div class="section-heading text-center">
-                        <h2>LATEST NEWS</h2>
+                        <h2 style="color: yellowgreen;">LATEST NEWS</h2>
                         <p>The breaking news about Gardening &amp; House plants</p>
                     </div>
                 </div>
@@ -530,11 +530,11 @@
     <section class="subscribe-newsletter-area" style="background-image: url(assets/img/subscribe.png);">
         <div class="container">
             <div class="row align-items-center justify-content-between">
-                <div class="col-12 col-lg-11">
+                <div class="col-12">
                     <!-- Section Heading -->
                     <div class="section-heading mb-0 text-center">
-                        <h2 style="font-align: center">LOKASI KAMI</h2>
-                        <p>Ikuti kami untuk update terbaru kami</p>
+                        <h2 style="color: yellowgreen;">LOKASI KAMI</h2>
+                        <p>Ikuti kami untuk update terbarssu kami</p>
                     </div>
                 </div>
             </div>
@@ -673,8 +673,8 @@
                         <div class="footer-nav">
                             <nav>
                                 <ul>
-                                    <li><a href="#home">Home</a></li>
-                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#home">Beranda</a></li>
+                                    <li><a href="#about">Tentang Kami</a></li>
                                     <li><a href="#galeri">Galeri</a></li>
 
                                 </ul>
