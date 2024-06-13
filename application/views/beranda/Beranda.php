@@ -40,9 +40,9 @@
                             <!-- Top Header Content -->
                             <div class="top-header-meta">
                                 <a href="#" data-toggle="tooltip" data-placement="bottom"
-                                    title="infodeercreative@gmail.com"><i class="fa fa-envelope-o"
+                                    title="legendabintanghijau@gmail.com"><i class="fa fa-envelope-o"
                                         aria-hidden="true"></i> <span>Email: legendabintanghijau@gmail.com</span></a>
-                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="+1 234 122 122"><i
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="089671432155"><i
                                         class="fa fa-phone" aria-hidden="true"></i> <span>Call : 089671432155</span></a>
                             </div>
 
@@ -130,10 +130,13 @@
                         <div class="col-12">
                             <!-- Post Content -->
                             <div class="hero-slides-content text-center">
-                                <h2>Selamat Datang Di PT.Legenda Bintang Hijau</h2>
-                                <p>Perusahaan ini bergerak dibudidaya anggrek bulan yang terletak</p>
+                                <h2><b>Selamat Datang Di PT.Legenda Bintang Hijau</b></h2>
+                                <p>Perusahaan budidaya anggrek bulan kami menonjolkan keindahan alam dengan dedikasi
+                                    yang tinggi untuk merawat dan mengembangkan kecantikan alami dari anggrek bulan,
+                                    menghadirkan keajaiban alam yang tak tertandingi dalam setiap bunga yang kami
+                                    hasilkan.</p>
                                 <div class="welcome-btn-group">
-                                    <a href="#about" class="btn alazea-btn mr-30">GET STARTED</a>
+                                    <a href="#about" class="btn alazea-btn mr-30">MULAI</a>
                                 </div>
                             </div>
                         </div>
@@ -152,12 +155,13 @@
                         <div class="col-12">
                             <!-- Post Content -->
                             <div class="hero-slides-content text-center">
-                                <h2>Selamat Datang Di PT.Legenda Bintang Hijau</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque ante
-                                    nec ipsum iaculis, ac iaculis ipsum porttitor. Vivamus cursus nisl lectus, id mattis
-                                    nisl lobortis eu. Duis diam augue, dapibus ut dolor at, mattis maximus dolor.</p>
+                                <h2><b>Selamat Datang Di PT.Legenda Bintang Hijau</b></h2>
+                                <p>Perusahaan budidaya anggrek bulan kami menonjolkan keindahan alam dengan dedikasi
+                                    yang tinggi untuk merawat dan mengembangkan kecantikan alami dari anggrek bulan,
+                                    menghadirkan keajaiban alam yang tak tertandingi dalam setiap bunga yang kami
+                                    hasilkan.</p>
                                 <div class="welcome-btn-group">
-                                    <a href="#about" class="btn alazea-btn mr-30">GET STARTED</a>
+                                    <a href="#about" class="btn alazea-btn mr-30">MULAI</a>
                                 </div>
                             </div>
                         </div>
@@ -268,18 +272,32 @@
             <div class="row justify-content-between">
                 <div class="col-12 col-lg-6">
                     <!-- Section Heading -->
-                    
 
-                     <p class="text-justify text-bold" style="font-size: large; position: inherit;">Anggrek (Orchidaceae) merupakan tanaman yang mudah beradaptasi dengan lingkungannya. Tak heran, apabila tanaman anggek bisa dijumpai hampir di seluruh bagian di dunia. Lokasi tumbuh mereka juga bisa sangat beragam. Mulai dari daerah dataran rendah hingga dataran tinggi, mulai dari kawasan yang bersuhu dingin hingga bersuhu panas. Secara umum anggrek bisa digolongkan menjadi dua, yaitu epifit dan terresterial. Kategori epifit merupakan jenis anggrek yang tumbuhnya menempel pada tanaman lain, namun tidak bersifat parasit atau merugikan tanaman yang ditumpanginya. Contoh anggrek jenis ini ialah genus Dendrobium, Bulbophyllum, dan Coelogyne. Sedangkan kategori terresterial adalah anggrek yang tumbuhnya di tanah, contohnya ialah genus Spathoglottis, Calanthe, dan Paphiope-dilum.
-                        "Sejauh ini telah teridentifikasi sekitar 750 famili, 43.000 spesies, dan 35.000 varietas hibrida anggrek dari seluruh penjuru dunia. Indonesia sekurannya memiliki 5.000 spesies. Dari jumlah itu, 986 spesies tersebar di hutan-hutan di Pulau Jawa, 971 spesies berada di Pulau Sumatra, 113 spesies tumbuh di Kepulauan Maluku, dan sisanya bisa ditemukan di Sulawesi, Irian Jaya, Nusa Tenggara, dan Kalimantan. Anggrek Bulan adalah salah satu jenis anggrek alam yang memiliki pesona sangat indah dan banyak diminati di Indonesia.
-                     </p>
+
+                    <p class="text-justify text-bold" style="font-size: large; position: inherit;">Anggrek (Orchidaceae)
+                        merupakan tanaman yang mudah beradaptasi dengan lingkungannya. Tak heran, apabila tanaman anggek
+                        bisa dijumpai hampir di seluruh bagian di dunia. Lokasi tumbuh mereka juga bisa sangat beragam.
+                        Mulai dari daerah dataran rendah hingga dataran tinggi, mulai dari kawasan yang bersuhu dingin
+                        hingga bersuhu panas. Secara umum anggrek bisa digolongkan menjadi dua, yaitu epifit dan
+                        terresterial. Kategori epifit merupakan jenis anggrek yang tumbuhnya menempel pada tanaman lain,
+                        namun tidak bersifat parasit atau merugikan tanaman yang ditumpanginya. Contoh anggrek jenis ini
+                        ialah genus Dendrobium, Bulbophyllum, dan Coelogyne. Sedangkan kategori terresterial adalah
+                        anggrek yang tumbuhnya di tanah, contohnya ialah genus Spathoglottis, Calanthe, dan
+                        Paphiope-dilum.
+                        "Sejauh ini telah teridentifikasi sekitar 750 famili, 43.000 spesies, dan 35.000 varietas
+                        hibrida anggrek dari seluruh penjuru dunia. Indonesia sekurannya memiliki 5.000 spesies. Dari
+                        jumlah itu, 986 spesies tersebar di hutan-hutan di Pulau Jawa, 971 spesies berada di Pulau
+                        Sumatra, 113 spesies tumbuh di Kepulauan Maluku, dan sisanya bisa ditemukan di Sulawesi, Irian
+                        Jaya, Nusa Tenggara, dan Kalimantan. Anggrek Bulan adalah salah satu jenis anggrek alam yang
+                        memiliki pesona sangat indah dan banyak diminati di Indonesia.
+                    </p>
                 </div>
-                    <!-- Progress Bar Content Area -->
+                <!-- Progress Bar Content Area -->
                 <div class="col-12 col-lg-6">
                     <img style="size: 200px;" src="<?php echo base_url() ?>/assets/beranda/img/bg-img/bungaa.jpg">
                 </div>
+            </div>
         </div>
-    </div>
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -525,8 +543,8 @@
     </section>
     <!-- ##### Blog Area End ##### -->
 
-      <!-- ##### Subscribe Area Start ##### -->
-      <section class="subscribe-newsletter-area" style="background-image: url(assets/img/subscribe.png);">
+    <!-- ##### Subscribe Area Start ##### -->
+    <section class="subscribe-newsletter-area" style="background-image: url(assets/img/subscribe.png);">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12 col-lg-11">
@@ -561,7 +579,7 @@
             </div>
         </div>
     </div>
-</section>
+    </section>
     <!-- ##### Contact Area End ##### -->
 
     <!-- ##### Footer Area Start ##### -->
@@ -582,7 +600,8 @@
                                 <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                                 <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                                 <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                <a href="https://www.instagram.com/sukagoatmilk?igsh=ajdkZzJnNjI5bjU1"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="https://www.instagram.com/sukagoatmilk?igsh=ajdkZzJnNjI5bjU1"><i
+                                        class="fa fa-instagram" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
@@ -666,7 +685,7 @@
                     <!-- Copywrite Text -->
                     <div class="col-12 col-md-6">
                         <div class="copywrite-text">
-                            &copy; 2024 Kelompok II By
+                            &copy; By Kelompok II 2024
                             <a href="">Manggrek</a>
                         </div>
                     </div>
@@ -678,7 +697,7 @@
                                     <li><a href="#home">Home</a></li>
                                     <li><a href="#about">About</a></li>
                                     <li><a href="#galeri">Galeri</a></li>
-                                    
+
                                 </ul>
                             </nav>
                         </div>
