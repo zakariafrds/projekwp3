@@ -493,8 +493,8 @@
                 <div class="col-12">
                     <!-- Section Heading -->
                     <div class="section-heading text-center">
-                        <h2 style="color: yellowgreen;">LATEST NEWS</h2>
-                        <p>The breaking news about Gardening &amp; House plants</p>
+                        <h2 style="color: yellowgreen;">KEGIATAN</h2>
+                        <p>Rekap Konten &amp; Kegiatan</p>
                     </div>
                 </div>
             </div>
