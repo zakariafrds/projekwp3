@@ -39,8 +39,12 @@
                         <div class="top-header-content d-flex align-items-center justify-content-between">
                             <!-- Top Header Content -->
                             <div class="top-header-meta">
-                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="infodeercreative@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> <span>Email: legendabintanghijau@gmail.com</span></a>
-                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="+1 234 122 122"><i class="fa fa-phone" aria-hidden="true"></i> <span>Call : 089671432155</span></a>
+                                <a href="#" data-toggle="tooltip" data-placement="bottom"
+                                    title="legendabintanghijau@gmail.com"><i class="fa fa-envelope-o"
+                                        aria-hidden="true"></i> <span>Email: legendabintanghijau@gmail.com</span></a>
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="089671432155"><i
+                                        class="fa fa-phone" aria-hidden="true"></i> <span>Call :
+                                        089671432155</span></a>
                             </div>
 
                             <!-- Top Header Content -->
@@ -88,7 +92,7 @@
                             <!-- Navbar Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li><a href="#home">Home</a></li>
+                                    <li><a href="#home">Beranda</a></li>
                                     <li><a href="#about">Tentang Kami</a></li>
                                     <li><a href="#galeri">Galeri</a></li>
                                 </ul>
@@ -101,7 +105,8 @@
                     <!-- Search Form -->
                     <div class="search-form">
                         <form action="#" method="get">
-                            <input type="search" name="search" id="search" placeholder="Type keywords &amp; press enter...">
+                            <input type="search" name="search" id="search"
+                                placeholder="Type keywords &amp; press enter...">
                             <button type="submit" class="d-none"></button>
                         </form>
                         <!-- Close Icon -->
@@ -127,10 +132,13 @@
                         <div class="col-12">
                             <!-- Post Content -->
                             <div class="hero-slides-content text-center">
-                                <h2>Selamat Datang Di PT.Legenda Bintang Hijau</h2>
-                                <p>Perusahaan ini bergerak dibudidaya anggrek bulan yang terletak</p>
+                                <h2><b>Selamat Datang Di PT.Legenda Bintang Hijau</b></h2>
+                                <p>Perusahaan budidaya anggrek bulan kami menonjolkan keindahan alam dengan dedikasi
+                                    yang tinggi untuk merawat dan mengembangkan kecantikan alami dari anggrek bulan,
+                                    menghadirkan keajaiban alam yang tak tertandingi dalam setiap bunga yang kami
+                                    hasilkan.</p>
                                 <div class="welcome-btn-group">
-                                    <a href="#about" class="btn alazea-btn mr-30">GET STARTED</a>
+                                    <a href="#about" class="btn alazea-btn mr-30">MULAI</a>
                                 </div>
                             </div>
                         </div>
@@ -149,12 +157,13 @@
                         <div class="col-12">
                             <!-- Post Content -->
                             <div class="hero-slides-content text-center">
-                                <h2>Selamat Datang Di PT.Legenda Bintang Hijau</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque ante
-                                    nec ipsum iaculis, ac iaculis ipsum porttitor. Vivamus cursus nisl lectus, id mattis
-                                    nisl lobortis eu. Duis diam augue, dapibus ut dolor at, mattis maximus dolor.</p>
+                                <h2><b>Selamat Datang Di PT.Legenda Bintang Hijau</b></h2>
+                                <p>Perusahaan budidaya anggrek bulan kami menonjolkan keindahan alam dengan dedikasi
+                                    yang tinggi untuk merawat dan mengembangkan kecantikan alami dari anggrek bulan,
+                                    menghadirkan keajaiban alam yang tak tertandingi dalam setiap bunga yang kami
+                                    hasilkan.</p>
                                 <div class="welcome-btn-group">
-                                    <a href="#about" class="btn alazea-btn mr-30">GET STARTED</a>
+                                    <a href="#about" class="btn alazea-btn mr-30">MULAI</a>
                                 </div>
                             </div>
                         </div>
@@ -258,17 +267,30 @@
         <div class="container">
 
             <div class="section-heading text-center">
-                <h2 <h2 style="color: yellowgreen;">TENTANG KAMI</h2>
-                <p>Deksripsi Anggrek</p>
+                <h2 style="color: yellowgreen;">TENTANG KAMI</>
+                    <p>Deksripsi Anggrek</p>
 
             </div>
             <div class="row justify-content-between">
                 <div class="col-12 col-lg-6">
                     <!-- Section Heading -->
 
-
-                    <p class="text-justify text-bold" style="font-size: large; position: inherit;">Anggrek (Orchidaceae) merupakan tanaman yang mudah beradaptasi dengan lingkungannya. Tak heran, apabila tanaman anggek bisa dijumpai hampir di seluruh bagian di dunia. Lokasi tumbuh mereka juga bisa sangat beragam. Mulai dari daerah dataran rendah hingga dataran tinggi, mulai dari kawasan yang bersuhu dingin hingga bersuhu panas. Secara umum anggrek bisa digolongkan menjadi dua, yaitu epifit dan terresterial. Kategori epifit merupakan jenis anggrek yang tumbuhnya menempel pada tanaman lain, namun tidak bersifat parasit atau merugikan tanaman yang ditumpanginya. Contoh anggrek jenis ini ialah genus Dendrobium, Bulbophyllum, dan Coelogyne. Sedangkan kategori terresterial adalah anggrek yang tumbuhnya di tanah, contohnya ialah genus Spathoglottis, Calanthe, dan Paphiope-dilum.
-                        "Sejauh ini telah teridentifikasi sekitar 750 famili, 43.000 spesies, dan 35.000 varietas hibrida anggrek dari seluruh penjuru dunia. Indonesia sekurannya memiliki 5.000 spesies. Dari jumlah itu, 986 spesies tersebar di hutan-hutan di Pulau Jawa, 971 spesies berada di Pulau Sumatra, 113 spesies tumbuh di Kepulauan Maluku, dan sisanya bisa ditemukan di Sulawesi, Irian Jaya, Nusa Tenggara, dan Kalimantan. Anggrek Bulan adalah salah satu jenis anggrek alam yang memiliki pesona sangat indah dan banyak diminati di Indonesia.
+                    <p class="text-justify text-bold" style="font-size: large; position: inherit;">Anggrek (Orchidaceae)
+                        merupakan tanaman yang mudah beradaptasi dengan lingkungannya. Tak heran, apabila tanaman anggek
+                        bisa dijumpai hampir di seluruh bagian di dunia. Lokasi tumbuh mereka juga bisa sangat beragam.
+                        Mulai dari daerah dataran rendah hingga dataran tinggi, mulai dari kawasan yang bersuhu dingin
+                        hingga bersuhu panas. Secara umum anggrek bisa digolongkan menjadi dua, yaitu epifit dan
+                        terresterial. Kategori epifit merupakan jenis anggrek yang tumbuhnya menempel pada tanaman lain,
+                        namun tidak bersifat parasit atau merugikan tanaman yang ditumpanginya. Contoh anggrek jenis ini
+                        ialah genus Dendrobium, Bulbophyllum, dan Coelogyne. Sedangkan kategori terresterial adalah
+                        anggrek yang tumbuhnya di tanah, contohnya ialah genus Spathoglottis, Calanthe, dan
+                        Paphiope-dilum.
+                        "Sejauh ini telah teridentifikasi sekitar 750 famili, 43.000 spesies, dan 35.000 varietas
+                        hibrida anggrek dari seluruh penjuru dunia. Indonesia sekurannya memiliki 5.000 spesies. Dari
+                        jumlah itu, 986 spesies tersebar di hutan-hutan di Pulau Jawa, 971 spesies berada di Pulau
+                        Sumatra, 113 spesies tumbuh di Kepulauan Maluku, dan sisanya bisa ditemukan di Sulawesi, Irian
+                        Jaya, Nusa Tenggara, dan Kalimantan. Anggrek Bulan adalah salah satu jenis anggrek alam yang
+                        memiliki pesona sangat indah dan banyak diminati di Indonesia.
                     </p>
                 </div>
                 <!-- Progress Bar Content Area -->
@@ -294,7 +316,7 @@
                 <div class="col-12">
                     <!-- Section Heading -->
                     <div class="section-heading text-center">
-                        <h2>GALERI</h2>
+                        <h2 style="color: yellowgreen;">GALERI</h2>
                         <p>Phalaenopsis Amabilis</p>
                     </div>
                 </div>
@@ -317,12 +339,15 @@
             <div class="row alazea-portfolio">
 
                 <!-- Single Portfolio Area -->
-                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item design home-design wow fadeInUp" data-wow-delay="100ms">
+                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item design home-design wow fadeInUp"
+                    data-wow-delay="100ms">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(assets/beranda/img/bg-img/kae1.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img"
+                        style="background-image: url(assets/beranda/img/bg-img/kae1.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="assets/beranda/img/bg-img/kae1.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 1">
+                        <a href="assets/beranda/img/bg-img/kae1.jpg"
+                            class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 1">
                             <div class="port-hover-text">
                                 <h3>Anggrek Bulan Putih Bintik Ungu</h3>
                                 <h5>Office Plants</h5>
@@ -334,10 +359,12 @@
                 <!-- Single Portfolio Area -->
                 <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden wow fadeInUp" data-wow-delay="200ms">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(assets/beranda/img/bg-img/kae2.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img"
+                        style="background-image: url(assets/beranda/img/bg-img/kae2.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="assets/beranda/img/bg-img/kae2.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 2">
+                        <a href="assets/beranda/img/bg-img/kae2.jpg"
+                            class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 2">
                             <div class="port-hover-text">
                                 <h3>Anggrek Bulan Ungu Putih</h3>
                                 <h5>Office Plants</h5>
@@ -347,12 +374,15 @@
                 </div>
 
                 <!-- Single Portfolio Area -->
-                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden design wow fadeInUp" data-wow-delay="300ms">
+                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden design wow fadeInUp"
+                    data-wow-delay="300ms">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(assets/beranda/img/bg-img/kae3.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img"
+                        style="background-image: url(assets/beranda/img/bg-img/kae3.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="assets/beranda/img/bg-img/kae3.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 3">
+                        <a href="assets/beranda/img/bg-img/kae3.jpg"
+                            class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 3">
                             <div class="port-hover-text">
                                 <h3>Anggrek Bulan Bunga Orange</h3>
                                 <h5>Office Plants</h5>
@@ -362,12 +392,15 @@
                 </div>
 
                 <!-- Single Portfolio Area -->
-                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden office-design wow fadeInUp" data-wow-delay="400ms">
+                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden office-design wow fadeInUp"
+                    data-wow-delay="400ms">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(assets/beranda/img/bg-img/kae4.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img"
+                        style="background-image: url(assets/beranda/img/bg-img/kae4.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="assets/beranda/img/bg-img/kae4.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 4">
+                        <a href="assets/beranda/img/bg-img/kae4.jpg"
+                            class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 4">
                             <div class="port-hover-text">
                                 <h3>Anggrek Bulan Bunga Pink</h3>
                                 <h5>Office Plants</h5>
@@ -377,12 +410,15 @@
                 </div>
 
                 <!-- Single Portfolio Area -->
-                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item design office-design wow fadeInUp" data-wow-delay="100ms">
+                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item design office-design wow fadeInUp"
+                    data-wow-delay="100ms">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(assets/beranda/img/bg-img/kae5.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img"
+                        style="background-image: url(assets/beranda/img/bg-img/kae5.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="assets/beranda/img/bg-img/kae5.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 5">
+                        <a href="assets/beranda/img/bg-img/kae5.jpg"
+                            class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 5">
                             <div class="port-hover-text">
                                 <h3>Variasi</h3>
                                 <h5>Office Plants</h5>
@@ -394,10 +430,12 @@
                 <!-- Single Portfolio Area -->
                 <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden wow fadeInUp" data-wow-delay="200ms">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(assets/beranda/img/bg-img/kae6.png);"></div>
+                    <div class="portfolio-thumbnail bg-img"
+                        style="background-image: url(assets/beranda/img/bg-img/kae6.png);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="assets/beranda/img/bg-img/kae6.png" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 6">
+                        <a href="assets/beranda/img/bg-img/kae6.png"
+                            class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 6">
                             <div class="port-hover-text">
                                 <h3>Anggrek Bulan Biru</h3>
                                 <h5>Office Plants</h5>
@@ -410,10 +448,12 @@
                 <!-- Single Portfolio Area -->
                 <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden wow fadeInUp" data-wow-delay="200ms">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(assets/beranda/img/bg-img/kae7.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img"
+                        style="background-image: url(assets/beranda/img/bg-img/kae7.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="assets/beranda/img/bg-img/kae7.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 7">
+                        <a href="assets/beranda/img/bg-img/kae7.jpg"
+                            class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 7">
                             <div class="port-hover-text">
                                 <h3>Anggrek Bulan Bercak Biru</h3>
                                 <h5>Office Plants</h5>
@@ -426,10 +466,12 @@
                 <!-- Single Portfolio Area -->
                 <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden wow fadeInUp" data-wow-delay="200ms">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(assets/beranda/img/bg-img/Kae8.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img"
+                        style="background-image: url(assets/beranda/img/bg-img/Kae8.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="assets/beranda/img/bg-img/Kae8.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 8">
+                        <a href="assets/beranda/img/bg-img/Kae8.jpg"
+                            class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 8">
                             <div class="port-hover-text">
                                 <h3>Anggrek Bulan Bunga Hitam</h3>
                                 <h5>Office Plants</h5>
@@ -451,7 +493,7 @@
                 <div class="col-12">
                     <!-- Section Heading -->
                     <div class="section-heading text-center">
-                        <h2 style="color: yellowgreen">KEGIATAN</h2>
+                        <h2 style="color: yellowgreen;">LATEST NEWS</h2>
                         <p>The breaking news about Gardening &amp; House plants</p>
                     </div>
                 </div>
@@ -527,11 +569,11 @@
     <section class="subscribe-newsletter-area" style="background-image: url(assets/img/subscribe.png);">
         <div class="container">
             <div class="row align-items-center justify-content-between">
-                <div class="col-12 col-lg-11">
+                <div class="col-12">
                     <!-- Section Heading -->
                     <div class="section-heading mb-0 text-center">
-                        <h2 style="font-align: center">LOKASI KAMI</h2>
-                        <p>Ikuti kami untuk update terbaru kami</p>
+                        <h2 style="color: yellowgreen;">LOKASI KAMI</h2>
+                        <p>Ikuti kami untuk update terbarssu kami</p>
                     </div>
                 </div>
             </div>
@@ -550,7 +592,10 @@
             <div class="col-12">
                 <div class="map_container">
                     <div class="map-responsive">
-                        <iframe id='Lokasi' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.435717732693!2d107.49156430933313!3d-6.46635669349829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6913a7cd350875%3A0x9fa3064cd2a55ee8!2sBintang%20Hijau%20Farm!5e0!3m2!1sid!2sid!4v1717077496558!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe id='Lokasi'
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.435717732693!2d107.49156430933313!3d-6.46635669349829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6913a7cd350875%3A0x9fa3064cd2a55ee8!2sBintang%20Hijau%20Farm!5e0!3m2!1sid!2sid!4v1717077496558!5m2!1sid!2sid"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
@@ -577,7 +622,8 @@
                                 <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                                 <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                                 <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                <a href="https://www.instagram.com/sukagoatmilk?igsh=ajdkZzJnNjI5bjU1"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="https://www.instagram.com/sukagoatmilk?igsh=ajdkZzJnNjI5bjU1"><i
+                                        class="fa fa-instagram" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
@@ -661,7 +707,7 @@
                     <!-- Copywrite Text -->
                     <div class="col-12 col-md-6">
                         <div class="copywrite-text">
-                            &copy; 2024 Kelompok II By
+                            &copy; By Kelompok II 2024
                             <a href="">Manggrek</a>
                         </div>
                     </div>
@@ -670,8 +716,8 @@
                         <div class="footer-nav">
                             <nav>
                                 <ul>
-                                    <li><a href="#home">Home</a></li>
-                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#home">Beranda</a></li>
+                                    <li><a href="#about">Tentang Kami</a></li>
                                     <li><a href="#galeri">Galeri</a></li>
 
                                 </ul>
