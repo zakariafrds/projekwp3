@@ -24,7 +24,7 @@
     <div class="preloader d-flex align-items-center justify-content-center">
         <div class="preloader-circle"></div>
         <div class="preloader-img">
-            <img src="img/core-img/leaf.png" alt="">
+            <img src="assets/beranda/img/core-img/leaf.png" alt="">
         </div>
     </div>
 
@@ -72,8 +72,9 @@
                     <nav class="classy-navbar justify-content-between" id="alazeaNav">
 
                         <!-- Nav Brand -->
-                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
-
+                        <div class="col-4 col-md-2 col-lg-2">
+                        <a href="index.html" class="nav-brand"><img src="assets/beranda/img/ad.png" alt=""></a>
+                        </div>
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
                             <span class="navbarToggler"><span></span><span></span><span></span></span>
@@ -460,20 +461,16 @@
                 <!-- Single Blog Post Area -->
                 <div class="col-10 col-md-5 col-lg-3">
                     <div class="single-blog-post mb-100">
-                        <div class="post-thumbnail mb-30">
-                            <a href="single-post.html"><img width="70%" src="assets/images/kibow.jpg" alt=""></a>
+                        <div class="post-thumbnail mb-40">
+                            <a href="#"><img width="70%" src="assets/images/kibow.jpg" alt=""></a>
                         </div>
                         <div class="post-content">
-                            <a href="single-post.html" class="post-title">
-                                <h5>Garden designers across the country forecast ideas shaping the gardening world in
-                                    2018</h5>
-                            </a>
+                                <h5 style="text-align: justify">Pembuatan Media Tanam untuk pengelolaan anggrek bulan</h5>
                             <div class="post-meta">
-                                <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 20 Jun 2018</a>
-                                <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Alan Jackson</a>
+                                <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 20 Jun 2023</a>
+                                <a href="#"><i class="fa fa-user" aria-hidden="true"></i>Kibow Hndsm</a>
                             </div>
-                            <p class="post-excerpt">Integer luctus diam ac scerisque consectetur. Vimus ottawas nec
-                                lacus sit amet. Aenean interdus mid vitae.</p>
+                            <p class="post-excerpt">Pembuatan media tanam sangat penting bagi pertumbuhan tanaman anggrek bulan</p>
                         </div>
                     </div>
                 </div>
@@ -482,16 +479,16 @@
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-blog-post mb-100">
                         <div class="post-thumbnail mb-30">
-                            <a href="single-post.html"><img src="img/bg-img/7.jpg" alt=""></a>
+                            <a href="#"><img width="81%" src="assets/images/siram3.jpg" alt=""></a>
                         </div>
                         <div class="post-content">
                             <a href="single-post.html" class="post-title">
-                                <h5>2018 Midwest Tree and Shrub Conference: Resilient Plants for a Lasting Landscape
+                                <h5>Penyiraman Tanaman Anggrek Bulan
                                 </h5>
                             </a>
                             <div class="post-meta">
-                                <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 20 Jun 2018</a>
-                                <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Christina Aguilera</a>
+                                <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 20 Jun 2023</a>
+                                <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Khang Agus</a>
                             </div>
                             <p class="post-excerpt">Integer luctus diam ac scerisque consectetur. Vimus ottawas nec
                                 lacus sit amet. Aenean interdus mid vitae.</p>
