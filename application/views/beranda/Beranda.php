@@ -123,7 +123,7 @@
             <!-- Single Hero Post -->
             <div class="single-hero-post bg-overlay">
                 <!-- Post Image -->
-                <div class="slide-img bg-img" style="background-image: url(<?php echo base_url('assets/beranda') ?>/img/bg-img/1.jpg);"></div>
+                <div class="slide-img bg-img" style="background-image: url(assets/images/pabrik2.jpg);"></div>
 
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
@@ -190,7 +190,7 @@
                         <div class="single-service-area d-flex align-items-center wow fadeInUp" data-wow-delay="100ms">
                             <!-- Icon -->
                             <div class="service-icon mr-30">
-                                <img src="img/core-img/s1.png" alt="">
+                                <img src="assets/beranda/img/core-img/s1.png" alt="">
                             </div>
                             <!-- Content -->
                             <div class="service-content">
@@ -208,7 +208,7 @@
                         <div class="single-service-area d-flex align-items-center wow fadeInUp" data-wow-delay="300ms">
                             <!-- Icon -->
                             <div class="service-icon mr-30">
-                                <img src="img/core-img/s2.png" alt="">
+                                <img src="assets/beranda/img/core-img/s2.png" alt="">
                             </div>
                             <!-- Content -->
                             <div class="service-content">
@@ -225,7 +225,7 @@
                         <div class="single-service-area d-flex align-items-center wow fadeInUp" data-wow-delay="500ms">
                             <!-- Icon -->
                             <div class="service-icon mr-30">
-                                <img src="img/core-img/s3.png" alt="">
+                                <img src="assets/beranda/img/core-img/s3.png" alt="">
                             </div>
                             <!-- Content -->
                             <div class="service-content">
@@ -245,8 +245,8 @@
 
                 <div class="col-12 col-lg-6">
                     <div class="alazea-video-area bg-overlay mb-100">
-                        <img src="img/bg-img/23.jpg" alt="">
-                        <a href="http://www.youtube.com/watch?v=7HKoqNJtMTQ" class="video-icon">
+                        <img src="assets/beranda/img/bg-img/23.jpg" alt="">
+                        <a href="https://www.youtube.com/watch?v=EGsihsuKznQ" class="video-icon">
                             <i class="fa fa-play" aria-hidden="true"></i>
                         </a>
                     </div>
